@@ -3,7 +3,7 @@
 #include <limits.h>
 
 //function finds the maximum of three integers
-struct max_val(struct subarry x,struct subarry y,struct subarry z)
+struct subarry max_val(struct subarry x,struct subarry y,struct subarry z)
 {
     //stores the max value of the 3 cases
     struct subarry A;
@@ -29,7 +29,7 @@ low - start of the array
 mid - middle of array
 high - end of the array
 */
-struct max_crossing(int A[], int low, int mid, int high)
+struct subarry max_crossing(int A[], int low, int mid, int high)
 {
     struct subarry A;
 
@@ -76,7 +76,7 @@ low - start of the array
 mid - middle of array
 high - end of the array
 */
-struct max_array(int A[], int low, int high)
+struct subarry max_array(int A[], int low, int high)
 {
     //check the base case or 1 element
     if(low == high)
