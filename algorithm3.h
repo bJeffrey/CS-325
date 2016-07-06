@@ -1,5 +1,5 @@
-#ifndef ALGORITHM_3_H_
-#define ALGORITHM_3_H_
+#ifndef ALGORITHM3_H_
+#define ALGORITHM3_H_
 
 /*
 Struct to hold all the values from the algorithm
@@ -35,4 +35,4 @@ struct max_array(int A[], int low, int high);
 
 
 
-#endif // ALGORITHM_3_H_
+#endif // ALGORITHM3_H_
