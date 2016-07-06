@@ -16,6 +16,7 @@ algorithm3.o: algorithm3.cpp algorithm3.h
 	g++ -c algorithm3.cpp 
 
 clean:	
+	rm main 
 	rm main.o
 	rm maxSubL.o
 	rm algorithm1.o
