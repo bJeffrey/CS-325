@@ -11,7 +11,7 @@ struct subarry{
 };
 
 //function finds the maximum of three integers
-struct max_val(int x, int y, int z);
+struct max_val(struct subarry x,struct subarry y,struct subarry z);
 
 
 //this is to find if the maximum sum crosses over two arrays.
