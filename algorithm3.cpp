@@ -1,4 +1,5 @@
 #include "algorithm3.h"
+#include "algorithm1.h"
 #include <stdio.h>
 #include <limits.h>
 
