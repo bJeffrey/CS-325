@@ -1,5 +1,15 @@
-default: main.cpp algorithm1.cpp
-	g++ -g main.cpp algorithm1.cpp -o main
+all: testMain testMain.o maxSubL.o
 
-clean:
-	rm data.csv MSS_Problems.txt MSS_RESULTS.txt
+testMain: testMain.o maxSubL.o 
+	g++ -g testMain.o maxSubL.o -o testMain
+
+testMain.o: testMain.cpp
+	g++ -c testMain.cpp
+
+maxSubL.o: maxSubL.cpp maxSubL.h
+	g++ -c maxSubL.cpp
+		
+
+clean:	
+	rm testMain.o
+	rm maxSubL.o
