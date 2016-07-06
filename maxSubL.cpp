@@ -2,7 +2,7 @@
 #include "maxSubL.h"
 #include "algorithm1.h"
 
-void maxSubL(long int *arr, int j)
+struct subarray maxSubL(long int *arr, int j)
 {
 	struct subarray returnSub;
 	returnSub.lowIndex = 0;
