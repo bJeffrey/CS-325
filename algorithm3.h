@@ -1,14 +1,7 @@
 #ifndef ALGORITHM3_H_
 #define ALGORITHM3_H_
 
-/*
-Struct to hold all the values from the algorithm
-*/
-struct subarray{
-    int lowIndex;
-    int highIndex;
-    int sum;
-};
+
 
 //function finds the maximum of three integers
 struct subarray max_val(struct subarray x,struct subarray y,struct subarray z);
