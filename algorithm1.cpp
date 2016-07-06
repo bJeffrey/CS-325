@@ -22,10 +22,14 @@ int getArraySum(int *array, int startIdx, int endIdx){
 }
 
 /*******************************************************************************
-Description: 
+Description: Finds the start and end endices of the maximum subarray in an array
+             as well as the value of the sum.  Algorithm computes the sum of the
+             subarray between every pair of indices
 Parameters:
-Pre:
-Post:
+    array - array with random values -100 through 100
+    size - size of the aray
+Pre: array populated.  Function called from main
+Post: startIdx found. endIdx found.  sum found.
 *******************************************************************************/
 struct subarray alg1Calculate(int *array, const int size){
   struct subarray A;
@@ -57,10 +61,15 @@ struct subarray alg1Calculate(int *array, const int size){
 }
 
 /*******************************************************************************
-Description:
+Description: Finds the start and end endices of the maximum subarray in an array
+             as well as the value of the sum.  Algorithm notices that alg1Calculate
+             calculates the same value several times.  To find the next sum,
+             the next element of the array is added
 Parameters:
-Pre:
-Post:
+    array - array with random values -100 through 100
+    size - size of the aray
+Pre: array populated.  Function called from main
+Post: startIdx found. endIdx found.  sum found.
 *******************************************************************************/
 struct subarray alg2Calculate(int *array, const int size){
   struct subarray A;
@@ -70,11 +79,10 @@ struct subarray alg2Calculate(int *array, const int size){
   A.highIndex = 0;
 
   for(i = 0; i < size; i++){
+    currentSum = array[i];
     for(j = i; j < size; j++){
-      if(i < j)
-        currentSum = getArraySum(array, i, j);
-      else
-        currentSum = getArraySum(array, j, i);
+      if(i != j)
+        currentSum += array[j];
 
       if(currentSum >= A.sum){
         A.sum = currentSum;
