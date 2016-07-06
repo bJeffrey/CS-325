@@ -4,14 +4,14 @@
 /*
 Struct to hold all the values from the algorithm
 */
-struct subarry{
+struct subarray{
     int lowIndex;
     int highIndex;
     int sum;
 };
 
 //function finds the maximum of three integers
-struct subarry max_val(struct subarry x,struct subarry y,struct subarry z);
+struct subarray max_val(struct subarray x,struct subarray y,struct subarray z);
 
 
 //this is to find if the maximum sum crosses over two arrays.
@@ -21,7 +21,7 @@ low - start of the array
 mid - middle of array
 high - end of the array
 */
-struct subarry max_crossing(int A[], int low, int mid, int high);
+struct subarray max_crossing(int A[], int low, int mid, int high);
 
 //this function is for finding the max of the array of a non crossing case
 /*
@@ -30,7 +30,7 @@ low - start of the array
 mid - middle of array
 high - end of the array
 */
-struct subarry max_array(int A[], int low, int high);
+struct subarray max_array(int A[], int low, int high);
 
 
 
