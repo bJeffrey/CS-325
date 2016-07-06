@@ -5,11 +5,11 @@
 #include <fstream>
 #include <string>
 
-#define RAND_NUM_SIZE 1300
+#define RAND_NUM_SIZE 16000
 #define ALG_1_SIZE_LIMIT 750
 #define ALG_1_STEP 5
-#define ALG_2_SIZE_LIMIT 1100
-#define ALG_2_STEP 10
+#define ALG_2_SIZE_LIMIT 16000
+#define ALG_2_STEP 100
 #define ALG_3_SIZE_LIMIT 500
 #define ALG_3_STEP 20
 #define ALG_4_SIZE_LIMIT 500
