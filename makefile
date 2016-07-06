@@ -1,18 +1,18 @@
 all: main main.o maxSubL.o algorithm1.o algorithm3.o
 
-main: main.o maxSubL.o 
+main: main.o maxSubL.o algorithm1.o algorithm3.o
 	g++ -g main.o maxSubL.o algorithm1.o algorithm3.o -o main
 
 main.o: main.cpp
 	g++ -c main.cpp
 
-maxSubL.o: maxSubL.cpp maxSubL.h algorithm1.o
-	g++ -c maxSubL.cpp algorithm1.o
+maxSubL.o: maxSubL.cpp maxSubL.h
+	g++ -c maxSubL.cpp 
 	
 algorithm1.o: algorithm1.cpp algorithm1.h
 	g++ -c algorithm1.cpp 
 	
-algorithm1.o: algorithm3.cpp algorithm3.h
+algorithm3.o: algorithm3.cpp algorithm3.h
 	g++ -c algorithm3.cpp 
 
 clean:	
