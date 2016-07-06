@@ -1,6 +1,6 @@
 #ifndef ALGORITHM3_H_
 #define ALGORITHM3_H_
-
+#include "algorithm1.h"
 
 
 //function finds the maximum of three integers
