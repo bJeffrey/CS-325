@@ -1,4 +1,3 @@
-#include "algorithm3.h"
 #include "algorithm1.h"
 #include <stdio.h>
 #include <limits.h>
@@ -16,7 +15,7 @@ struct subarray max_val(struct subarray x,struct subarray y,struct subarray z)
     else
         A.sum = y.sum;
 
-    if( max_value < z.sum)
+    if( A.sum < z.sum)
         A.sum = z.sum;
 
     return A;
@@ -32,7 +31,7 @@ high - end of the array
 */
 struct subarray max_crossing(int A[], int low, int mid, int high)
 {
-    struct subarray A;
+    struct subarray B;
 
 
     int sum = 0; //this variable keeps track of the sums being calculated
@@ -62,12 +61,12 @@ struct subarray max_crossing(int A[], int low, int mid, int high)
     }
 
 //transfers values to struct
-    A.sum = sum_left_side + sum_right_side;
-    A.highIndex = high;
-    A.lowIndex = low;
+    B.sum = sum_left_side + sum_right_side;
+    B.highIndex = high;
+    B.lowIndex = low;
 
 //return the sum of the elements
-    return A;
+    return B;
 }
 
 //this function is for finding the max of the array of a non crossing case
@@ -79,10 +78,13 @@ high - end of the array
 */
 struct subarray max_array(int A[], int low, int high)
 {
+  struct subarray B;
     //check the base case or 1 element
     if(low == high)
-        return A[low];
-
+    {
+      B.sum = A[low];
+        return B;
+    }
     //this variable is for finding the middle value.
     int mid = (low + high)/2;
 
@@ -91,5 +93,6 @@ struct subarray max_array(int A[], int low, int high)
                    max_array(A, mid+1, high),
                    max_crossing(A, low, mid, high)
                    );
+
 
 }
