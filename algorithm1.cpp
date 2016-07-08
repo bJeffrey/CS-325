@@ -96,3 +96,42 @@ struct subarray alg2Calculate(int *array, const int size){
   // getline(rand_num, mystring);
   // mystringstream << mystring;
   // mystringstream >> array[i];
+  return A;
+}
+
+/*******************************************************************************
+Description: Finds the start and end endices of the maximum subarray in an array
+             as well as the value of the sum.  Algorithm notices that alg1Calculate
+             calculates the same value several times.  To find the next sum,
+             the next element of the array is added
+Parameters:
+    array - array with random values -100 through 100
+    size - size of the aray
+Pre: array populated.  Function called from main
+Post: startIdx found. endIdx found.  sum found.
+*******************************************************************************/
+struct subarray alg2Calculate(int *array, const int size){
+  struct subarray A;
+  int i, j;
+  int currentSum = A.sum = array[0];
+  A.lowIndex = 0;
+  A.highIndex = 0;
+
+  for(i = 0; i < size; i++){
+    currentSum = array[i];
+    for(j = i; j < size; j++){
+      if(i != j)
+        currentSum += array[j];
+
+      if(currentSum >= A.sum){
+        A.sum = currentSum;
+        A.lowIndex = i;
+        A.highIndex = j;
+      }
+    }
+  }
+  return A;
+}
+  // getline(rand_num, mystring);
+  // mystringstream << mystring;
+  // mystringstream >> array[i];
