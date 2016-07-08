@@ -41,16 +41,6 @@ high - end of the array
 */
 struct subarray max_array(int A[], int low, int high);
 
-
-
-
-
-
-
-
-
-
-
-
+struct subarray maxSubL(int *arr, int j);//Computes the subarray in n runtime complexity
 
 #endif
