@@ -1,27 +1,45 @@
 #include "algorithm1.h"
-#include "maxSubL.h"
 #include <iostream>
 #include <time.h>
 #include <stdlib.h>
 #include <fstream>
 #include <string>
 
-#define RAND_NUM_SIZE 16000
+#define RAND_NUM_SIZE 60000
 #define ALG_1_SIZE_LIMIT 750
 #define ALG_1_STEP 5
 #define ALG_2_SIZE_LIMIT 16000
-#define ALG_2_STEP 100
-#define ALG_3_SIZE_LIMIT 500
-#define ALG_3_STEP 20
-#define ALG_4_SIZE_LIMIT 500
-#define ALG_4_STEP 20
+#define ALG_2_STEP 150
+#define ALG_3_SIZE_LIMIT 60000
+#define ALG_3_STEP 100
+#define ALG_3_DIVIDE 10
+#define ALG_4_SIZE_LIMIT 60000
+#define ALG_4_STEP 100
+#define ALG_4_DIVIDE 150
 
 using namespace std;
 
+/*******************************************************************************
+Description: Creates saves the results of calculating subarray into MSS_RESULTS.txt
+Parameters:
+size - size of the array
+subarray - lowIndex, highIndex, and sum of the subarray
+results - .txt file to store the results
+Pre: Function called from main
+Post: .csv and .txt files created, .txt file populated, both files closed
+*******************************************************************************/
+void saveResults(int i, struct subarray A, int *array, ofstream &results){
+  results << "When the size of the array is " << i + 1 << ", the sum of the subarray is " << A.sum << " and the corresponding array is as follows:\n";
+
+  for(A.lowIndex; A.lowIndex <= A.highIndex; A.lowIndex++)
+    results << array[A.lowIndex] << " ";
+
+  results << "\n\n";
+}
 
 /*******************************************************************************
 Description: Controls runtime calculation for algorithm 1.  Has complexity
-            O(n^n - 1)
+            O(n^3 - 1)
 Parameters:
     rand_num - .txt file of random numbers in domain [-100, 100]
     data - .csv file for runtime data to be written to
@@ -52,7 +70,7 @@ void alg1Control(ifstream &rand_num, ofstream &data, ofstream &results){
     t = clock() - t;
     timer += ((float)t)/CLOCKS_PER_SEC;
 
-    results << "Size of array: " << i + 1 << "\t\tBeginning index: " << A.lowIndex << "\t\tEnding index: " << A.highIndex << "\t\tSum: " << A.sum << "\n";
+    saveResults(i, A, array, results);
 
     data << ((float)t)/CLOCKS_PER_SEC << ",";
 
@@ -70,7 +88,7 @@ void alg1Control(ifstream &rand_num, ofstream &data, ofstream &results){
 
 
 /*******************************************************************************
-Description: Controls runtime calculation for algorithm 2
+Description: Controls runtime calculation for algorithm 2.  Has complexity O(n^2)
 Parameters:
     rand_num - .txt file of random numbers in domain [-100, 100]
     data - .csv file for runtime data to be written to
@@ -101,7 +119,7 @@ void alg2Control(ifstream &rand_num, ofstream &data, ofstream &results){
     t = clock() - t;
     timer += ((float)t)/CLOCKS_PER_SEC;
 
-    results << "Size of array: " << i + 1 << "\t\tBeginning index: " << A.lowIndex << "\t\tEnding index: " << A.highIndex << "\t\tSum: " << A.sum << "\n";
+    saveResults(i, A, array, results);
 
     data << ((float)t)/CLOCKS_PER_SEC << ",";
 
@@ -144,14 +162,18 @@ void alg3Control(ifstream &rand_num, ofstream &data, ofstream &results){
     for(j = 0; j <= i; j++)
       rand_num >> array[j];
 
+
+
     t = clock();
-    //A = alg3Calculate(.....)...Code goes here for calculating subarray
+    for(int k = 0; k < ALG_3_DIVIDE; k++){
+      A = max_array(array, 0, i);
+    }
     t = clock() - t;
     timer += ((float)t)/CLOCKS_PER_SEC;
 
-    results << "Size of array: " << i + 1 << "\t\tBeginning index: " << A.lowIndex << "\t\tEnding index: " << A.highIndex << "\t\tSum: " << A.sum << "\n";
+    saveResults(i, A, array, results);
 
-    data << ((float)t)/CLOCKS_PER_SEC << ",";
+    data << (((float)t)/CLOCKS_PER_SEC)/ALG_3_DIVIDE << ",";
 
     if( timer >= 5.0){
       cout << "Gathering data for algorithm 3...\n";
@@ -193,13 +215,18 @@ void alg4Control(ifstream &rand_num, ofstream &data, ofstream &results){
       rand_num >> array[j];
 
     t = clock();
-    //A = alg3Calculate(.....)...Code goes here for calculating subarray
+    for(int k = 0; k < ALG_4_DIVIDE; k++){
+      A = maxSubL(array, i + 1);
+    }
     t = clock() - t;
+
+
+
     timer += ((float)t)/CLOCKS_PER_SEC;
 
-    results << "Size of array: " << i + 1 << "\t\tBeginning index: " << A.lowIndex << "\t\tEnding index: " << A.highIndex << "\t\tSum: " << A.sum << "\n";
+    saveResults(i, A, array, results);
 
-    data << ((float)t)/CLOCKS_PER_SEC << ",";
+    data << ( ( (float)t)/CLOCKS_PER_SEC)/ALG_4_DIVIDE << ",";
 
     if( timer >= 5.0){
       cout << "Gathering data for algorithm 4...\n";
@@ -212,6 +239,7 @@ void alg4Control(ifstream &rand_num, ofstream &data, ofstream &results){
   data << "\n\n";
   results << "\n\n";
 }
+
 
 /*******************************************************************************
 Description: Creates .txt and .csv files and populates .txt with random ints
@@ -264,10 +292,9 @@ int main(){
 
   alg1Control(rand_num, data, results);
   alg2Control(rand_num, data, results);
-/*
   alg3Control(rand_num, data, results);
   alg4Control(rand_num, data, results);
-*/
+
   rand_num.close();
   data.close();
   results.close();
