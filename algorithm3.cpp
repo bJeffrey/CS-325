@@ -95,7 +95,7 @@ struct subarray max_array(int A[], int low, int high)
       B.lowIndex = B.highIndex =low;
         return B;
     }
-    //this variable is for finding the middle value.
+    //this variable is for finding the middle value
     int mid = (low + high)/2;
 
     //this will return the maximum value for the left, right and crossing case
