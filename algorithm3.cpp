@@ -10,13 +10,22 @@ struct subarray max_val(struct subarray x,struct subarray y,struct subarray z)
 
 
     //if statements used to find the max value.
-    if(x.sum > y.sum)
+    if(x.sum > y.sum){
         A.sum = x.sum;
-    else
+        A.lowIndex = x.lowIndex;
+        A.highIndex = x.highIndex;
+    }
+    else{
         A.sum = y.sum;
+        A.lowIndex = y.lowIndex;
+        A.highIndex = y.highIndex;
+    }
 
-    if( A.sum < z.sum)
+    if( A.sum < z.sum){
         A.sum = z.sum;
+        A.lowIndex = z.lowIndex;
+        A.highIndex = z.highIndex;
+    }
 
     return A;
 
@@ -83,6 +92,7 @@ struct subarray max_array(int A[], int low, int high)
     if(low == high)
     {
       B.sum = A[low];
+      B.lowIndex = B.highIndex =low;
         return B;
     }
     //this variable is for finding the middle value.
