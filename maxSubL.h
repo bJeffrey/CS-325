@@ -3,6 +3,6 @@
 
 #include "algorithm1.h"
 
-subarray maxSubL(long int *arr, int j);
+subarray maxSubL(int *arr, int j);
 
 #endif
