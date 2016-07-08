@@ -1,5 +1,4 @@
 #include <iostream>
-#include "maxSubL.h"
 #include "algorithm1.h"
 
 struct subarray maxSubL(int *arr, int j)
@@ -20,9 +19,9 @@ struct subarray maxSubL(int *arr, int j)
 		else
 			temp += arr[i];
 		//test if current temp value is greater than maximum sum, if so, replace max sum and change inde value
-		if (temp > max)
+		if (temp > returnSub.sum)
 		{
-			returnSub.sum = temp;		
+			returnSub.sum = temp;
 			returnSub.highIndex = i;
 		}
 		//change sub index
