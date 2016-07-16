@@ -1,14 +1,12 @@
-#include "coin.h"
-struct coin(struct coin x)
+#include "coinGreedy.h"
+
+void coinGreedy(int *c, int *v, int i, int A)
 {
-	//creating temporary variables for use in the function
-	int i = x.i;
-	int A = x.A;
 	while (A > 0)
 	{
-		if (A >= x.v[i])
+		if (A >= v[i])
 		{
-			A =- x.v[i];
+			A =- v[i];
 			x.c[i]++;
 		}
 		else if(i > 0)
@@ -17,9 +15,8 @@ struct coin(struct coin x)
 		}
 		else
 		{
-			A =- x.v[i];
+			A =- v[i];
 			c[i]++;
 		}
 	}
-	return x;
 }
