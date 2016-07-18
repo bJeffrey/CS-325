@@ -153,7 +153,7 @@ int main(int argc, char *argv[])
 		for (int l = 0; l < k; l++)
 		{
 			//perform DP algorithm
-			changedp(c,v,i,A[l]);
+			changedp(c,v,i-1,A[l]);
 			//write to file
 			myfile << "Algorithm changeDP:\n";
 			myfile << "[";	//place in braces at beginning and end
