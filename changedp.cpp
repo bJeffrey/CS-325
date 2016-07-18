@@ -71,11 +71,12 @@ cout << endl;
 
 //sets m or the min value to the correct value
 m = T[length_of_arrays][A];
+/*
 std::cout << "m = " << m << std::endl;
 cout << "length_of_arrays = " << length_of_arrays << endl;
 cout << "A = " << A << endl;
 cout << "T[length_pf_array][A] = " << T[length_of_arrays][A] << endl;
-
+*/
 
 
 
