@@ -2,7 +2,6 @@
 #include "changedp.h"
 
 using namespace std;
-
 int changedp(int *c, int *v, int length_of_arrays, int A)
 {
 
@@ -78,13 +77,20 @@ cout << "A = " << A << endl;
 cout << "T[length_pf_array][A] = " << T[length_of_arrays][A] << endl;
 
 
+
+
 for(int i = 0; i < length_of_arrays; i++)
 {    c[i]=0;
 }
 int col = A;
 int row = length_of_arrays;
+/*
+cout << "T[row][col] = " << T[row][col] << endl;
+cout << "T[row-1][col] = " << T[row-1][col] << endl;
+/*
 cout << "row = " << row << endl;
 cout << "col = " << col << endl;
+*/
 //finds the # of coins per size used
 //cout << "T = " << T[row][col] << endl;
 
@@ -110,7 +116,7 @@ while(col > 0)
 /*
 cout << "col = " << col << endl;
 cout << "row = " << row << endl;
-
+/*
 cout << "val[0] = " << val[0] << endl;
 cout << "val[1] = " << val[1] << endl;
 cout << "val[2] = " << val[2] << endl;
@@ -128,14 +134,41 @@ std::cout << "]\n";
 
 }
 
-
+/*
 std::cout << "C[";
 for(int i = 0; i < length_of_arrays; i++)
 {
     std::cout << c[i] << ",";
 }
 std::cout << "]\n";
-
+*/
     return m;
 
 };
+
+int coinGreedy(int *c, int *v, int i, int A)
+{
+	int count = 0;
+	while (A > 0)
+	{
+		if (A >= v[i-1])
+		{
+			A -= v[i-1];
+			c[i-1]++;
+			count++;
+		}
+		else if(i > 0)
+		{
+			i--;
+		}
+		else
+		{
+			A -= v[i-1];
+			c[i-1]++;
+			count ++;
+		}
+    }
+
+
+	return count;
+}
