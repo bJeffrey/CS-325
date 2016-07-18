@@ -159,7 +159,8 @@ int main(int argc, char *argv[])
 			v are the values of the coins being used. SHould look like this v[5] = {1,5,10,15,25}
 			A is the desired change amount. should look like this A=37;
 			*/
-			changedp(c,v,i,A[l]);
+			count = changedp(c,v,i,A[l]);
+			//std::cout << "Test2\n";
 			//write to file
 			myfile << "Algorithm changeDP:\n";
 			myfile << "[";	//place in braces at beginning and end
