@@ -1,9 +1,7 @@
-#include "changedp.h"
 #include <iostream>
 
-//using namespace std;
+using namespace std;
 
-//see changedp.h for details.
 void changedp(int *c, int *v, int length_of_arrays, int A)
 {
 
@@ -73,7 +71,7 @@ cout << endl;
 
 //sets m or the min value to the correct value
 m = T[length_of_arrays][A];
-//std::cout << "m = " << m << std::endl;
+std::cout << "m = " << m << std::endl;
 
 
 
@@ -81,29 +79,38 @@ for(int i = 0; i < length_of_arrays; i++)
 {
     c[i]=0;
 }
-int i = A;
-int j = length_of_arrays-1;
-
+int col = A;
+int row = length_of_arrays;
 
 //finds the # of coins per size used
-while(i > 0)
-{
-    if(T[j+1][i] == T[j][i])
-        {
-        c[j-1]++;
-        j--;
-        }
-    else
-        c[j]++;
 
-        i=i-v[j];
+while(col > 0)
+{
+
+    if(T[row][col] == T[row-1][col])
+    {
+        row--;
+    }
+    else
+    {
+        c[row-1]++;
+        col = col - val[row];
+    }
+
+    if(row == 0)
+    {
+        c[0]++;
+        col--;
+    }
 }
 
-/*std::cout << "C[";
+/*
+
+std::cout << "C[";
 for(int i = 0; i < length_of_arrays; i++)
 {
     std::cout << c[i] << ",";
 }
-std::cout << "]\n";*/
-
+std::cout << "]\n";
+*/
 };
