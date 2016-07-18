@@ -12,7 +12,7 @@
 **Output:
 ** c is the only variable that will be altered.
 *******************************/
-void changedp(int *c, int *v, int length_of_arrays, int A);
+int changedp(int *c, int *v, int length_of_arrays, int A);
 
 
 #endif // CHANGEDP_H_INCLUDED
