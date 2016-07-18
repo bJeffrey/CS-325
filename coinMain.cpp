@@ -153,7 +153,13 @@ int main(int argc, char *argv[])
 		for (int l = 0; l < k; l++)
 		{
 			//perform DP algorithm
-			changedp(c,v,i-1,A[l]);
+			/*
+			i is equal to the number of different types of coins being used. i=5
+			c is an array to store the coins needs to be in format c[5] = {0,0,0,0,0};
+			v are the values of the coins being used. SHould look like this v[5] = {1,5,10,15,25}
+			A is the desired change amount. should look like this A=37;
+			*/
+			changedp(c,v,i,A[l]);
 			//write to file
 			myfile << "Algorithm changeDP:\n";
 			myfile << "[";	//place in braces at beginning and end
