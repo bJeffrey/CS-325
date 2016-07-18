@@ -4,7 +4,6 @@ using namespace std;
 
 void changedp(int *c, int *v, int length_of_arrays, int A)
 {
-
     //the minimal number of coins
     int m = 0;
     //the variable temp is used in the building of the table
@@ -71,7 +70,6 @@ cout << endl;
 
 //sets m or the min value to the correct value
 m = T[length_of_arrays][A];
-std::cout << "m = " << m << std::endl;
 
 
 
@@ -105,7 +103,6 @@ while(col > 0)
 }
 
 /*
-
 std::cout << "C[";
 for(int i = 0; i < length_of_arrays; i++)
 {
