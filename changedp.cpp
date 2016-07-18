@@ -1,9 +1,11 @@
 #include <iostream>
+#include "changedp.h"
 
 using namespace std;
 
-void changedp(int *c, int *v, int length_of_arrays, int A)
+int changedp(int *c, int *v, int length_of_arrays, int A)
 {
+
     //the minimal number of coins
     int m = 0;
     //the variable temp is used in the building of the table
@@ -70,17 +72,21 @@ cout << endl;
 
 //sets m or the min value to the correct value
 m = T[length_of_arrays][A];
-
+std::cout << "m = " << m << std::endl;
+cout << "length_of_arrays = " << length_of_arrays << endl;
+cout << "A = " << A << endl;
+cout << "T[length_pf_array][A] = " << T[length_of_arrays][A] << endl;
 
 
 for(int i = 0; i < length_of_arrays; i++)
-{
-    c[i]=0;
+{    c[i]=0;
 }
 int col = A;
 int row = length_of_arrays;
-
+cout << "row = " << row << endl;
+cout << "col = " << col << endl;
 //finds the # of coins per size used
+//cout << "T = " << T[row][col] << endl;
 
 while(col > 0)
 {
@@ -100,8 +106,17 @@ while(col > 0)
         c[0]++;
         col--;
     }
-}
 
+/*
+cout << "col = " << col << endl;
+cout << "row = " << row << endl;
+
+cout << "val[0] = " << val[0] << endl;
+cout << "val[1] = " << val[1] << endl;
+cout << "val[2] = " << val[2] << endl;
+cout << "val[3] = " << val[3] << endl;
+cout << "val[4] = " << val[4] << endl;
+cout << "val[5] = " << val[5] << endl;
 /*
 std::cout << "C[";
 for(int i = 0; i < length_of_arrays; i++)
@@ -110,4 +125,17 @@ for(int i = 0; i < length_of_arrays; i++)
 }
 std::cout << "]\n";
 */
+
+}
+
+
+std::cout << "C[";
+for(int i = 0; i < length_of_arrays; i++)
+{
+    std::cout << c[i] << ",";
+}
+std::cout << "]\n";
+
+    return m;
+
 };
