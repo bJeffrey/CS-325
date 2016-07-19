@@ -1,3 +1,5 @@
+#include <iostream>
+#include "changedp.h"
 
 int changedp(int *c, int *v, int length_of_arrays, int A)
 {
