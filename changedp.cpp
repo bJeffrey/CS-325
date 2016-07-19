@@ -1,6 +1,8 @@
 #include <iostream>
 #include "changedp.h"
 
+using namespace std;
+
 int changedp(int *c, int *v, int length_of_arrays, int A)
 {
 
@@ -53,8 +55,9 @@ for(int row = 0; row < length_of_arrays+1; row++)
         }
     }
 
-/*this prints out the table that is constructed
-used for testing
+//this prints out the table that is constructed
+//used for testing
+/*
 for(int row = 0; row < length_of_arrays+1; row++)
     {
         for(int col = 0; col < A+1; col++)
@@ -67,6 +70,26 @@ for(int row = 0; row < length_of_arrays+1; row++)
 
 //sets m or the min value to the correct value
 m = T[length_of_arrays][A];
+
+//find the number of coins needed
+int row = length_of_arrays;
+int col = A;
+
+/*
+This while loop finds the number of coins needed to make change
+
+*/
+while (col > 0)
+{
+    if (T[row][col] == T[row-1][col])
+        row--;
+    else
+    {
+        c[row-1]++;
+        col = col - val[row];
+    }
+
+}
 
     return m;
 
