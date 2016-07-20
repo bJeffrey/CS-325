@@ -1,7 +1,9 @@
 #include "coinGreedy.h"
+#include <iostream>
 
 int coinGreedy(int *c, int *v, int i, int A)
 {
+	//std::cout << "Start\n";
 	int count = 0;
 	while (A > 0)
 	{
@@ -22,5 +24,6 @@ int coinGreedy(int *c, int *v, int i, int A)
 			count ++;
 		}
 	}
+	//std::cout << "End\n";
 	return count;
 }

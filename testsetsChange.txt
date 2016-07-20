@@ -1,0 +1,3852 @@
+Algorithm changeGreedy:
+[0, 0, 1, 0, 40]
+41
+Algorithm changeGreedy:
+[0, 1, 1, 0, 40]
+42
+Algorithm changeGreedy:
+[0, 0, 2, 0, 40]
+42
+Algorithm changeGreedy:
+[0, 0, 0, 1, 40]
+41
+Algorithm changeGreedy:
+[0, 1, 0, 1, 40]
+42
+Algorithm changeGreedy:
+[0, 0, 1, 1, 40]
+42
+Algorithm changeGreedy:
+[0, 1, 1, 1, 40]
+43
+Algorithm changeGreedy:
+[0, 0, 2, 1, 40]
+43
+Algorithm changeGreedy:
+[0, 0, 0, 0, 41]
+41
+Algorithm changeGreedy:
+[0, 1, 0, 0, 41]
+42
+Algorithm changeGreedy:
+[0, 0, 1, 0, 41]
+42
+Algorithm changeGreedy:
+[0, 1, 1, 0, 41]
+43
+Algorithm changeGreedy:
+[0, 0, 2, 0, 41]
+43
+Algorithm changeGreedy:
+[0, 0, 0, 1, 41]
+42
+Algorithm changeGreedy:
+[0, 1, 0, 1, 41]
+43
+Algorithm changeGreedy:
+[0, 0, 1, 1, 41]
+43
+Algorithm changeGreedy:
+[0, 1, 1, 1, 41]
+44
+Algorithm changeGreedy:
+[0, 0, 2, 1, 41]
+44
+Algorithm changeGreedy:
+[0, 0, 0, 0, 42]
+42
+Algorithm changeGreedy:
+[0, 1, 0, 0, 42]
+43
+Algorithm changeGreedy:
+[0, 0, 1, 0, 42]
+43
+Algorithm changeGreedy:
+[0, 1, 1, 0, 42]
+44
+Algorithm changeGreedy:
+[0, 0, 2, 0, 42]
+44
+Algorithm changeGreedy:
+[0, 0, 0, 1, 42]
+43
+Algorithm changeGreedy:
+[0, 1, 0, 1, 42]
+44
+Algorithm changeGreedy:
+[0, 0, 1, 1, 42]
+44
+Algorithm changeGreedy:
+[0, 1, 1, 1, 42]
+45
+Algorithm changeGreedy:
+[0, 0, 2, 1, 42]
+45
+Algorithm changeGreedy:
+[0, 0, 0, 0, 43]
+43
+Algorithm changeGreedy:
+[0, 1, 0, 0, 43]
+44
+Algorithm changeGreedy:
+[0, 0, 1, 0, 43]
+44
+Algorithm changeGreedy:
+[0, 1, 1, 0, 43]
+45
+Algorithm changeGreedy:
+[0, 0, 2, 0, 43]
+45
+Algorithm changeGreedy:
+[0, 0, 0, 1, 43]
+44
+Algorithm changeGreedy:
+[0, 1, 0, 1, 43]
+45
+Algorithm changeGreedy:
+[0, 0, 1, 1, 43]
+45
+Algorithm changeGreedy:
+[0, 1, 1, 1, 43]
+46
+Algorithm changeGreedy:
+[0, 0, 2, 1, 43]
+46
+Algorithm changeGreedy:
+[0, 0, 0, 0, 44]
+44
+Algorithm changeDP:
+[0, 0, 1, 0, 40]
+41
+Algorithm changeDP:
+[0, 1, 1, 0, 40]
+42
+Algorithm changeDP:
+[0, 0, 2, 0, 40]
+42
+Algorithm changeDP:
+[0, 0, 0, 1, 40]
+41
+Algorithm changeDP:
+[0, 1, 0, 1, 40]
+42
+Algorithm changeDP:
+[0, 0, 1, 1, 40]
+42
+Algorithm changeDP:
+[0, 1, 1, 1, 40]
+43
+Algorithm changeDP:
+[0, 0, 2, 1, 40]
+43
+Algorithm changeDP:
+[0, 0, 0, 0, 41]
+41
+Algorithm changeDP:
+[0, 1, 0, 0, 41]
+42
+Algorithm changeDP:
+[0, 0, 1, 0, 41]
+42
+Algorithm changeDP:
+[0, 1, 1, 0, 41]
+43
+Algorithm changeDP:
+[0, 0, 2, 0, 41]
+43
+Algorithm changeDP:
+[0, 0, 0, 1, 41]
+42
+Algorithm changeDP:
+[0, 1, 0, 1, 41]
+43
+Algorithm changeDP:
+[0, 0, 1, 1, 41]
+43
+Algorithm changeDP:
+[0, 1, 1, 1, 41]
+44
+Algorithm changeDP:
+[0, 0, 2, 1, 41]
+44
+Algorithm changeDP:
+[0, 0, 0, 0, 42]
+42
+Algorithm changeDP:
+[0, 1, 0, 0, 42]
+43
+Algorithm changeDP:
+[0, 0, 1, 0, 42]
+43
+Algorithm changeDP:
+[0, 1, 1, 0, 42]
+44
+Algorithm changeDP:
+[0, 0, 2, 0, 42]
+44
+Algorithm changeDP:
+[0, 0, 0, 1, 42]
+43
+Algorithm changeDP:
+[0, 1, 0, 1, 42]
+44
+Algorithm changeDP:
+[0, 0, 1, 1, 42]
+44
+Algorithm changeDP:
+[0, 1, 1, 1, 42]
+45
+Algorithm changeDP:
+[0, 0, 2, 1, 42]
+45
+Algorithm changeDP:
+[0, 0, 0, 0, 43]
+43
+Algorithm changeDP:
+[0, 1, 0, 0, 43]
+44
+Algorithm changeDP:
+[0, 0, 1, 0, 43]
+44
+Algorithm changeDP:
+[0, 1, 1, 0, 43]
+45
+Algorithm changeDP:
+[0, 0, 2, 0, 43]
+45
+Algorithm changeDP:
+[0, 0, 0, 1, 43]
+44
+Algorithm changeDP:
+[0, 1, 0, 1, 43]
+45
+Algorithm changeDP:
+[0, 0, 1, 1, 43]
+45
+Algorithm changeDP:
+[0, 1, 1, 1, 43]
+46
+Algorithm changeDP:
+[0, 0, 2, 1, 43]
+46
+Algorithm changeDP:
+[0, 0, 0, 0, 44]
+44
+Algorithm changeGreedy:
+[0, 1, 1, 1, 0, 0, 33]
+36
+Algorithm changeGreedy:
+[1, 1, 1, 1, 0, 0, 33]
+37
+Algorithm changeGreedy:
+[0, 2, 1, 1, 0, 0, 33]
+37
+Algorithm changeGreedy:
+[1, 2, 1, 1, 0, 0, 33]
+38
+Algorithm changeGreedy:
+[0, 0, 0, 0, 1, 0, 33]
+34
+Algorithm changeGreedy:
+[1, 0, 0, 0, 1, 0, 33]
+35
+Algorithm changeGreedy:
+[0, 1, 0, 0, 1, 0, 33]
+35
+Algorithm changeGreedy:
+[1, 1, 0, 0, 1, 0, 33]
+36
+Algorithm changeGreedy:
+[0, 2, 0, 0, 1, 0, 33]
+36
+Algorithm changeGreedy:
+[1, 2, 0, 0, 1, 0, 33]
+37
+Algorithm changeGreedy:
+[0, 0, 1, 0, 1, 0, 33]
+35
+Algorithm changeGreedy:
+[1, 0, 1, 0, 1, 0, 33]
+36
+Algorithm changeGreedy:
+[0, 1, 1, 0, 1, 0, 33]
+36
+Algorithm changeGreedy:
+[1, 1, 1, 0, 1, 0, 33]
+37
+Algorithm changeGreedy:
+[0, 2, 1, 0, 1, 0, 33]
+37
+Algorithm changeGreedy:
+[1, 2, 1, 0, 1, 0, 33]
+38
+Algorithm changeGreedy:
+[0, 0, 0, 1, 1, 0, 33]
+35
+Algorithm changeGreedy:
+[1, 0, 0, 1, 1, 0, 33]
+36
+Algorithm changeGreedy:
+[0, 1, 0, 1, 1, 0, 33]
+36
+Algorithm changeGreedy:
+[1, 1, 0, 1, 1, 0, 33]
+37
+Algorithm changeGreedy:
+[0, 2, 0, 1, 1, 0, 33]
+37
+Algorithm changeGreedy:
+[1, 2, 0, 1, 1, 0, 33]
+38
+Algorithm changeGreedy:
+[0, 0, 1, 1, 1, 0, 33]
+36
+Algorithm changeGreedy:
+[1, 0, 1, 1, 1, 0, 33]
+37
+Algorithm changeGreedy:
+[0, 1, 1, 1, 1, 0, 33]
+37
+Algorithm changeGreedy:
+[1, 1, 1, 1, 1, 0, 33]
+38
+Algorithm changeGreedy:
+[0, 2, 1, 1, 1, 0, 33]
+38
+Algorithm changeGreedy:
+[1, 2, 1, 1, 1, 0, 33]
+39
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 1, 33]
+34
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 1, 33]
+35
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 1, 33]
+35
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 1, 33]
+36
+Algorithm changeGreedy:
+[0, 2, 0, 0, 0, 1, 33]
+36
+Algorithm changeGreedy:
+[1, 2, 0, 0, 0, 1, 33]
+37
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 1, 33]
+35
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 1, 33]
+36
+Algorithm changeGreedy:
+[0, 1, 1, 0, 0, 1, 33]
+36
+Algorithm changeGreedy:
+[1, 1, 1, 0, 0, 1, 33]
+37
+Algorithm changeGreedy:
+[0, 2, 1, 0, 0, 1, 33]
+37
+Algorithm changeGreedy:
+[1, 2, 1, 0, 0, 1, 33]
+38
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 34]
+34
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 34]
+35
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 0, 34]
+35
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 0, 34]
+36
+Algorithm changeGreedy:
+[0, 2, 0, 0, 0, 0, 34]
+36
+Algorithm changeGreedy:
+[1, 2, 0, 0, 0, 0, 34]
+37
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 0, 34]
+35
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 0, 34]
+36
+Algorithm changeGreedy:
+[0, 1, 1, 0, 0, 0, 34]
+36
+Algorithm changeGreedy:
+[1, 1, 1, 0, 0, 0, 34]
+37
+Algorithm changeGreedy:
+[0, 2, 1, 0, 0, 0, 34]
+37
+Algorithm changeGreedy:
+[1, 2, 1, 0, 0, 0, 34]
+38
+Algorithm changeGreedy:
+[0, 0, 0, 1, 0, 0, 34]
+35
+Algorithm changeGreedy:
+[1, 0, 0, 1, 0, 0, 34]
+36
+Algorithm changeGreedy:
+[0, 1, 0, 1, 0, 0, 34]
+36
+Algorithm changeGreedy:
+[1, 1, 0, 1, 0, 0, 34]
+37
+Algorithm changeGreedy:
+[0, 2, 0, 1, 0, 0, 34]
+37
+Algorithm changeGreedy:
+[1, 2, 0, 1, 0, 0, 34]
+38
+Algorithm changeGreedy:
+[0, 0, 1, 1, 0, 0, 34]
+36
+Algorithm changeGreedy:
+[1, 0, 1, 1, 0, 0, 34]
+37
+Algorithm changeGreedy:
+[0, 1, 1, 1, 0, 0, 34]
+37
+Algorithm changeGreedy:
+[1, 1, 1, 1, 0, 0, 34]
+38
+Algorithm changeGreedy:
+[0, 2, 1, 1, 0, 0, 34]
+38
+Algorithm changeGreedy:
+[1, 2, 1, 1, 0, 0, 34]
+39
+Algorithm changeGreedy:
+[0, 0, 0, 0, 1, 0, 34]
+35
+Algorithm changeGreedy:
+[1, 0, 0, 0, 1, 0, 34]
+36
+Algorithm changeGreedy:
+[0, 1, 0, 0, 1, 0, 34]
+36
+Algorithm changeGreedy:
+[1, 1, 0, 0, 1, 0, 34]
+37
+Algorithm changeGreedy:
+[0, 2, 0, 0, 1, 0, 34]
+37
+Algorithm changeGreedy:
+[1, 2, 0, 0, 1, 0, 34]
+38
+Algorithm changeGreedy:
+[0, 0, 1, 0, 1, 0, 34]
+36
+Algorithm changeGreedy:
+[1, 0, 1, 0, 1, 0, 34]
+37
+Algorithm changeGreedy:
+[0, 1, 1, 0, 1, 0, 34]
+37
+Algorithm changeGreedy:
+[1, 1, 1, 0, 1, 0, 34]
+38
+Algorithm changeGreedy:
+[0, 2, 1, 0, 1, 0, 34]
+38
+Algorithm changeGreedy:
+[1, 2, 1, 0, 1, 0, 34]
+39
+Algorithm changeGreedy:
+[0, 0, 0, 1, 1, 0, 34]
+36
+Algorithm changeGreedy:
+[1, 0, 0, 1, 1, 0, 34]
+37
+Algorithm changeGreedy:
+[0, 1, 0, 1, 1, 0, 34]
+37
+Algorithm changeGreedy:
+[1, 1, 0, 1, 1, 0, 34]
+38
+Algorithm changeGreedy:
+[0, 2, 0, 1, 1, 0, 34]
+38
+Algorithm changeGreedy:
+[1, 2, 0, 1, 1, 0, 34]
+39
+Algorithm changeGreedy:
+[0, 0, 1, 1, 1, 0, 34]
+37
+Algorithm changeGreedy:
+[1, 0, 1, 1, 1, 0, 34]
+38
+Algorithm changeGreedy:
+[0, 1, 1, 1, 1, 0, 34]
+38
+Algorithm changeGreedy:
+[1, 1, 1, 1, 1, 0, 34]
+39
+Algorithm changeGreedy:
+[0, 2, 1, 1, 1, 0, 34]
+39
+Algorithm changeGreedy:
+[1, 2, 1, 1, 1, 0, 34]
+40
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 1, 34]
+35
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 1, 34]
+36
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 1, 34]
+36
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 1, 34]
+37
+Algorithm changeGreedy:
+[0, 2, 0, 0, 0, 1, 34]
+37
+Algorithm changeGreedy:
+[1, 2, 0, 0, 0, 1, 34]
+38
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 1, 34]
+36
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 1, 34]
+37
+Algorithm changeGreedy:
+[0, 1, 1, 0, 0, 1, 34]
+37
+Algorithm changeGreedy:
+[1, 1, 1, 0, 0, 1, 34]
+38
+Algorithm changeGreedy:
+[0, 2, 1, 0, 0, 1, 34]
+38
+Algorithm changeGreedy:
+[1, 2, 1, 0, 0, 1, 34]
+39
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 35]
+35
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 35]
+36
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 0, 35]
+36
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 0, 35]
+37
+Algorithm changeGreedy:
+[0, 2, 0, 0, 0, 0, 35]
+37
+Algorithm changeGreedy:
+[1, 2, 0, 0, 0, 0, 35]
+38
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 0, 35]
+36
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 0, 35]
+37
+Algorithm changeGreedy:
+[0, 1, 1, 0, 0, 0, 35]
+37
+Algorithm changeGreedy:
+[1, 1, 1, 0, 0, 0, 35]
+38
+Algorithm changeGreedy:
+[0, 2, 1, 0, 0, 0, 35]
+38
+Algorithm changeGreedy:
+[1, 2, 1, 0, 0, 0, 35]
+39
+Algorithm changeGreedy:
+[0, 0, 0, 1, 0, 0, 35]
+36
+Algorithm changeGreedy:
+[1, 0, 0, 1, 0, 0, 35]
+37
+Algorithm changeGreedy:
+[0, 1, 0, 1, 0, 0, 35]
+37
+Algorithm changeGreedy:
+[1, 1, 0, 1, 0, 0, 35]
+38
+Algorithm changeGreedy:
+[0, 2, 0, 1, 0, 0, 35]
+38
+Algorithm changeGreedy:
+[1, 2, 0, 1, 0, 0, 35]
+39
+Algorithm changeGreedy:
+[0, 0, 1, 1, 0, 0, 35]
+37
+Algorithm changeGreedy:
+[1, 0, 1, 1, 0, 0, 35]
+38
+Algorithm changeGreedy:
+[0, 1, 1, 1, 0, 0, 35]
+38
+Algorithm changeGreedy:
+[1, 1, 1, 1, 0, 0, 35]
+39
+Algorithm changeGreedy:
+[0, 2, 1, 1, 0, 0, 35]
+39
+Algorithm changeGreedy:
+[1, 2, 1, 1, 0, 0, 35]
+40
+Algorithm changeGreedy:
+[0, 0, 0, 0, 1, 0, 35]
+36
+Algorithm changeGreedy:
+[1, 0, 0, 0, 1, 0, 35]
+37
+Algorithm changeGreedy:
+[0, 1, 0, 0, 1, 0, 35]
+37
+Algorithm changeGreedy:
+[1, 1, 0, 0, 1, 0, 35]
+38
+Algorithm changeGreedy:
+[0, 2, 0, 0, 1, 0, 35]
+38
+Algorithm changeGreedy:
+[1, 2, 0, 0, 1, 0, 35]
+39
+Algorithm changeGreedy:
+[0, 0, 1, 0, 1, 0, 35]
+37
+Algorithm changeGreedy:
+[1, 0, 1, 0, 1, 0, 35]
+38
+Algorithm changeGreedy:
+[0, 1, 1, 0, 1, 0, 35]
+38
+Algorithm changeGreedy:
+[1, 1, 1, 0, 1, 0, 35]
+39
+Algorithm changeGreedy:
+[0, 2, 1, 0, 1, 0, 35]
+39
+Algorithm changeGreedy:
+[1, 2, 1, 0, 1, 0, 35]
+40
+Algorithm changeGreedy:
+[0, 0, 0, 1, 1, 0, 35]
+37
+Algorithm changeGreedy:
+[1, 0, 0, 1, 1, 0, 35]
+38
+Algorithm changeGreedy:
+[0, 1, 0, 1, 1, 0, 35]
+38
+Algorithm changeGreedy:
+[1, 1, 0, 1, 1, 0, 35]
+39
+Algorithm changeGreedy:
+[0, 2, 0, 1, 1, 0, 35]
+39
+Algorithm changeGreedy:
+[1, 2, 0, 1, 1, 0, 35]
+40
+Algorithm changeGreedy:
+[0, 0, 1, 1, 1, 0, 35]
+38
+Algorithm changeGreedy:
+[1, 0, 1, 1, 1, 0, 35]
+39
+Algorithm changeGreedy:
+[0, 1, 1, 1, 1, 0, 35]
+39
+Algorithm changeGreedy:
+[1, 1, 1, 1, 1, 0, 35]
+40
+Algorithm changeGreedy:
+[0, 2, 1, 1, 1, 0, 35]
+40
+Algorithm changeGreedy:
+[1, 2, 1, 1, 1, 0, 35]
+41
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 1, 35]
+36
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 1, 35]
+37
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 1, 35]
+37
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 1, 35]
+38
+Algorithm changeGreedy:
+[0, 2, 0, 0, 0, 1, 35]
+38
+Algorithm changeGreedy:
+[1, 2, 0, 0, 0, 1, 35]
+39
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 1, 35]
+37
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 1, 35]
+38
+Algorithm changeGreedy:
+[0, 1, 1, 0, 0, 1, 35]
+38
+Algorithm changeGreedy:
+[1, 1, 1, 0, 0, 1, 35]
+39
+Algorithm changeGreedy:
+[0, 2, 1, 0, 0, 1, 35]
+39
+Algorithm changeGreedy:
+[1, 2, 1, 0, 0, 1, 35]
+40
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 36]
+36
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 36]
+37
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 0, 36]
+37
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 0, 36]
+38
+Algorithm changeGreedy:
+[0, 2, 0, 0, 0, 0, 36]
+38
+Algorithm changeGreedy:
+[1, 2, 0, 0, 0, 0, 36]
+39
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 0, 36]
+37
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 0, 36]
+38
+Algorithm changeGreedy:
+[0, 1, 1, 0, 0, 0, 36]
+38
+Algorithm changeGreedy:
+[1, 1, 1, 0, 0, 0, 36]
+39
+Algorithm changeGreedy:
+[0, 2, 1, 0, 0, 0, 36]
+39
+Algorithm changeGreedy:
+[1, 2, 1, 0, 0, 0, 36]
+40
+Algorithm changeGreedy:
+[0, 0, 0, 1, 0, 0, 36]
+37
+Algorithm changeGreedy:
+[1, 0, 0, 1, 0, 0, 36]
+38
+Algorithm changeGreedy:
+[0, 1, 0, 1, 0, 0, 36]
+38
+Algorithm changeGreedy:
+[1, 1, 0, 1, 0, 0, 36]
+39
+Algorithm changeGreedy:
+[0, 2, 0, 1, 0, 0, 36]
+39
+Algorithm changeGreedy:
+[1, 2, 0, 1, 0, 0, 36]
+40
+Algorithm changeGreedy:
+[0, 0, 1, 1, 0, 0, 36]
+38
+Algorithm changeGreedy:
+[1, 0, 1, 1, 0, 0, 36]
+39
+Algorithm changeGreedy:
+[0, 1, 1, 1, 0, 0, 36]
+39
+Algorithm changeGreedy:
+[1, 1, 1, 1, 0, 0, 36]
+40
+Algorithm changeGreedy:
+[0, 2, 1, 1, 0, 0, 36]
+40
+Algorithm changeGreedy:
+[1, 2, 1, 1, 0, 0, 36]
+41
+Algorithm changeGreedy:
+[0, 0, 0, 0, 1, 0, 36]
+37
+Algorithm changeGreedy:
+[1, 0, 0, 0, 1, 0, 36]
+38
+Algorithm changeGreedy:
+[0, 1, 0, 0, 1, 0, 36]
+38
+Algorithm changeGreedy:
+[1, 1, 0, 0, 1, 0, 36]
+39
+Algorithm changeGreedy:
+[0, 2, 0, 0, 1, 0, 36]
+39
+Algorithm changeGreedy:
+[1, 2, 0, 0, 1, 0, 36]
+40
+Algorithm changeGreedy:
+[0, 0, 1, 0, 1, 0, 36]
+38
+Algorithm changeGreedy:
+[1, 0, 1, 0, 1, 0, 36]
+39
+Algorithm changeGreedy:
+[0, 1, 1, 0, 1, 0, 36]
+39
+Algorithm changeGreedy:
+[1, 1, 1, 0, 1, 0, 36]
+40
+Algorithm changeGreedy:
+[0, 2, 1, 0, 1, 0, 36]
+40
+Algorithm changeGreedy:
+[1, 2, 1, 0, 1, 0, 36]
+41
+Algorithm changeGreedy:
+[0, 0, 0, 1, 1, 0, 36]
+38
+Algorithm changeGreedy:
+[1, 0, 0, 1, 1, 0, 36]
+39
+Algorithm changeGreedy:
+[0, 1, 0, 1, 1, 0, 36]
+39
+Algorithm changeGreedy:
+[1, 1, 0, 1, 1, 0, 36]
+40
+Algorithm changeGreedy:
+[0, 2, 0, 1, 1, 0, 36]
+40
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 4, 30]
+36
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 4, 30]
+37
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 4, 30]
+37
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 4, 30]
+38
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 3, 31]
+34
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 3, 31]
+35
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 3, 31]
+35
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 3, 31]
+36
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 3, 31]
+36
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 3, 31]
+37
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 3, 31]
+35
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 3, 31]
+36
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 3, 31]
+36
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 3, 31]
+37
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 3, 31]
+37
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 3, 31]
+38
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 2, 32]
+34
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 2, 32]
+35
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 2, 32]
+35
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 2, 32]
+36
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 2, 32]
+36
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 2, 32]
+37
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 2, 32]
+35
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 2, 32]
+36
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 2, 32]
+36
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 2, 32]
+37
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 2, 32]
+37
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 2, 32]
+38
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 1, 33]
+34
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 1, 33]
+35
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 1, 33]
+35
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 1, 33]
+36
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 1, 33]
+36
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 1, 33]
+37
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 1, 33]
+35
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 1, 33]
+36
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 1, 33]
+36
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 1, 33]
+37
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 1, 33]
+37
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 1, 33]
+38
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 34]
+34
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 34]
+35
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 0, 34]
+35
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 0, 34]
+36
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 0, 34]
+36
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 0, 34]
+37
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 0, 34]
+35
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 0, 34]
+36
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 0, 34]
+36
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 0, 34]
+37
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 0, 34]
+37
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 0, 34]
+38
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 4, 31]
+35
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 4, 31]
+36
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 4, 31]
+36
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 4, 31]
+37
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 4, 31]
+37
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 4, 31]
+38
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 4, 31]
+36
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 4, 31]
+37
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 4, 31]
+37
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 4, 31]
+38
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 4, 31]
+38
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 4, 31]
+39
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 3, 32]
+35
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 3, 32]
+36
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 3, 32]
+36
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 3, 32]
+37
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 3, 32]
+37
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 3, 32]
+38
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 3, 32]
+36
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 3, 32]
+37
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 3, 32]
+37
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 3, 32]
+38
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 3, 32]
+38
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 3, 32]
+39
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 2, 33]
+35
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 2, 33]
+36
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 2, 33]
+36
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 2, 33]
+37
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 2, 33]
+37
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 2, 33]
+38
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 2, 33]
+36
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 2, 33]
+37
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 2, 33]
+37
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 2, 33]
+38
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 2, 33]
+38
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 2, 33]
+39
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 1, 34]
+35
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 1, 34]
+36
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 1, 34]
+36
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 1, 34]
+37
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 1, 34]
+37
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 1, 34]
+38
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 1, 34]
+36
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 1, 34]
+37
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 1, 34]
+37
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 1, 34]
+38
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 1, 34]
+38
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 1, 34]
+39
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 35]
+35
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 35]
+36
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 0, 35]
+36
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 0, 35]
+37
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 0, 35]
+37
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 0, 35]
+38
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 0, 35]
+36
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 0, 35]
+37
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 0, 35]
+37
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 0, 35]
+38
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 0, 35]
+38
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 0, 35]
+39
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 4, 32]
+36
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 4, 32]
+37
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 4, 32]
+37
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 4, 32]
+38
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 4, 32]
+38
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 4, 32]
+39
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 4, 32]
+37
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 4, 32]
+38
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 4, 32]
+38
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 4, 32]
+39
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 4, 32]
+39
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 4, 32]
+40
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 3, 33]
+36
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 3, 33]
+37
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 3, 33]
+37
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 3, 33]
+38
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 3, 33]
+38
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 3, 33]
+39
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 3, 33]
+37
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 3, 33]
+38
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 3, 33]
+38
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 3, 33]
+39
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 3, 33]
+39
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 3, 33]
+40
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 2, 34]
+36
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 2, 34]
+37
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 2, 34]
+37
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 2, 34]
+38
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 2, 34]
+38
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 2, 34]
+39
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 2, 34]
+37
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 2, 34]
+38
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 2, 34]
+38
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 2, 34]
+39
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 2, 34]
+39
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 2, 34]
+40
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 1, 35]
+36
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 1, 35]
+37
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 1, 35]
+37
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 1, 35]
+38
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 1, 35]
+38
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 1, 35]
+39
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 1, 35]
+37
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 1, 35]
+38
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 1, 35]
+38
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 1, 35]
+39
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 1, 35]
+39
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 1, 35]
+40
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 36]
+36
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 36]
+37
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 0, 36]
+37
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 0, 36]
+38
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 0, 36]
+38
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 0, 36]
+39
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 0, 36]
+37
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 0, 36]
+38
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 0, 36]
+38
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 0, 36]
+39
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 0, 36]
+39
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 0, 36]
+40
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 4, 33]
+37
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 4, 33]
+38
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 4, 33]
+38
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 4, 33]
+39
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 4, 33]
+39
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 4, 33]
+40
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 4, 33]
+38
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 4, 33]
+39
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 4, 33]
+39
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 4, 33]
+40
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 4, 33]
+40
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 4, 33]
+41
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 3, 34]
+37
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 3, 34]
+38
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 3, 34]
+38
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 3, 34]
+39
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 3, 34]
+39
+Algorithm changeDP:
+[1, 2, 0, 0, 0, 3, 34]
+40
+Algorithm changeDP:
+[0, 0, 1, 0, 0, 3, 34]
+38
+Algorithm changeDP:
+[1, 0, 1, 0, 0, 3, 34]
+39
+Algorithm changeDP:
+[0, 1, 1, 0, 0, 3, 34]
+39
+Algorithm changeDP:
+[1, 1, 1, 0, 0, 3, 34]
+40
+Algorithm changeDP:
+[0, 2, 1, 0, 0, 3, 34]
+40
+Algorithm changeDP:
+[1, 2, 1, 0, 0, 3, 34]
+41
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 2, 35]
+37
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 2, 35]
+38
+Algorithm changeDP:
+[0, 1, 0, 0, 0, 2, 35]
+38
+Algorithm changeDP:
+[1, 1, 0, 0, 0, 2, 35]
+39
+Algorithm changeDP:
+[0, 2, 0, 0, 0, 2, 35]
+39
+Algorithm changeGreedy:
+[0, 0, 1, 1, 13]
+15
+Algorithm changeGreedy:
+[1, 0, 1, 1, 13]
+16
+Algorithm changeGreedy:
+[2, 0, 1, 1, 13]
+17
+Algorithm changeGreedy:
+[3, 0, 1, 1, 13]
+18
+Algorithm changeGreedy:
+[4, 0, 1, 1, 13]
+19
+Algorithm changeGreedy:
+[5, 0, 1, 1, 13]
+20
+Algorithm changeGreedy:
+[0, 1, 1, 1, 13]
+16
+Algorithm changeGreedy:
+[1, 1, 1, 1, 13]
+17
+Algorithm changeGreedy:
+[2, 1, 1, 1, 13]
+18
+Algorithm changeGreedy:
+[3, 1, 1, 1, 13]
+19
+Algorithm changeGreedy:
+[4, 1, 1, 1, 13]
+20
+Algorithm changeGreedy:
+[5, 1, 1, 1, 13]
+21
+Algorithm changeGreedy:
+[0, 2, 1, 1, 13]
+17
+Algorithm changeGreedy:
+[0, 0, 2, 1, 13]
+16
+Algorithm changeGreedy:
+[1, 0, 2, 1, 13]
+17
+Algorithm changeGreedy:
+[2, 0, 2, 1, 13]
+18
+Algorithm changeGreedy:
+[3, 0, 2, 1, 13]
+19
+Algorithm changeGreedy:
+[4, 0, 2, 1, 13]
+20
+Algorithm changeGreedy:
+[5, 0, 2, 1, 13]
+21
+Algorithm changeGreedy:
+[0, 1, 2, 1, 13]
+17
+Algorithm changeGreedy:
+[1, 1, 2, 1, 13]
+18
+Algorithm changeGreedy:
+[2, 1, 2, 1, 13]
+19
+Algorithm changeGreedy:
+[3, 1, 2, 1, 13]
+20
+Algorithm changeGreedy:
+[4, 1, 2, 1, 13]
+21
+Algorithm changeGreedy:
+[0, 0, 0, 2, 13]
+15
+Algorithm changeGreedy:
+[1, 0, 0, 2, 13]
+16
+Algorithm changeGreedy:
+[2, 0, 0, 2, 13]
+17
+Algorithm changeGreedy:
+[3, 0, 0, 2, 13]
+18
+Algorithm changeGreedy:
+[4, 0, 0, 2, 13]
+19
+Algorithm changeGreedy:
+[5, 0, 0, 2, 13]
+20
+Algorithm changeGreedy:
+[0, 1, 0, 2, 13]
+16
+Algorithm changeGreedy:
+[1, 1, 0, 2, 13]
+17
+Algorithm changeGreedy:
+[2, 1, 0, 2, 13]
+18
+Algorithm changeGreedy:
+[3, 1, 0, 2, 13]
+19
+Algorithm changeGreedy:
+[4, 1, 0, 2, 13]
+20
+Algorithm changeGreedy:
+[5, 1, 0, 2, 13]
+21
+Algorithm changeGreedy:
+[0, 2, 0, 2, 13]
+17
+Algorithm changeGreedy:
+[0, 0, 1, 2, 13]
+16
+Algorithm changeGreedy:
+[1, 0, 1, 2, 13]
+17
+Algorithm changeGreedy:
+[2, 0, 1, 2, 13]
+18
+Algorithm changeGreedy:
+[3, 0, 1, 2, 13]
+19
+Algorithm changeGreedy:
+[4, 0, 1, 2, 13]
+20
+Algorithm changeGreedy:
+[5, 0, 1, 2, 13]
+21
+Algorithm changeGreedy:
+[0, 1, 1, 2, 13]
+17
+Algorithm changeGreedy:
+[1, 1, 1, 2, 13]
+18
+Algorithm changeGreedy:
+[2, 1, 1, 2, 13]
+19
+Algorithm changeGreedy:
+[3, 1, 1, 2, 13]
+20
+Algorithm changeGreedy:
+[4, 1, 1, 2, 13]
+21
+Algorithm changeGreedy:
+[5, 1, 1, 2, 13]
+22
+Algorithm changeGreedy:
+[0, 2, 1, 2, 13]
+18
+Algorithm changeGreedy:
+[0, 0, 2, 2, 13]
+17
+Algorithm changeGreedy:
+[1, 0, 2, 2, 13]
+18
+Algorithm changeGreedy:
+[2, 0, 2, 2, 13]
+19
+Algorithm changeGreedy:
+[3, 0, 2, 2, 13]
+20
+Algorithm changeGreedy:
+[4, 0, 2, 2, 13]
+21
+Algorithm changeGreedy:
+[5, 0, 2, 2, 13]
+22
+Algorithm changeGreedy:
+[0, 1, 2, 2, 13]
+18
+Algorithm changeGreedy:
+[1, 1, 2, 2, 13]
+19
+Algorithm changeGreedy:
+[2, 1, 2, 2, 13]
+20
+Algorithm changeGreedy:
+[3, 1, 2, 2, 13]
+21
+Algorithm changeGreedy:
+[4, 1, 2, 2, 13]
+22
+Algorithm changeGreedy:
+[0, 0, 0, 3, 13]
+16
+Algorithm changeGreedy:
+[1, 0, 0, 3, 13]
+17
+Algorithm changeGreedy:
+[2, 0, 0, 3, 13]
+18
+Algorithm changeGreedy:
+[3, 0, 0, 3, 13]
+19
+Algorithm changeGreedy:
+[4, 0, 0, 3, 13]
+20
+Algorithm changeGreedy:
+[5, 0, 0, 3, 13]
+21
+Algorithm changeGreedy:
+[0, 1, 0, 3, 13]
+17
+Algorithm changeGreedy:
+[1, 1, 0, 3, 13]
+18
+Algorithm changeGreedy:
+[2, 1, 0, 3, 13]
+19
+Algorithm changeGreedy:
+[3, 1, 0, 3, 13]
+20
+Algorithm changeGreedy:
+[4, 1, 0, 3, 13]
+21
+Algorithm changeGreedy:
+[5, 1, 0, 3, 13]
+22
+Algorithm changeGreedy:
+[0, 2, 0, 3, 13]
+18
+Algorithm changeGreedy:
+[0, 0, 1, 3, 13]
+17
+Algorithm changeGreedy:
+[1, 0, 1, 3, 13]
+18
+Algorithm changeGreedy:
+[2, 0, 1, 3, 13]
+19
+Algorithm changeGreedy:
+[3, 0, 1, 3, 13]
+20
+Algorithm changeGreedy:
+[4, 0, 1, 3, 13]
+21
+Algorithm changeGreedy:
+[5, 0, 1, 3, 13]
+22
+Algorithm changeGreedy:
+[0, 1, 1, 3, 13]
+18
+Algorithm changeGreedy:
+[1, 1, 1, 3, 13]
+19
+Algorithm changeGreedy:
+[2, 1, 1, 3, 13]
+20
+Algorithm changeGreedy:
+[3, 1, 1, 3, 13]
+21
+Algorithm changeGreedy:
+[4, 1, 1, 3, 13]
+22
+Algorithm changeGreedy:
+[5, 1, 1, 3, 13]
+23
+Algorithm changeGreedy:
+[0, 2, 1, 3, 13]
+19
+Algorithm changeGreedy:
+[0, 0, 2, 3, 13]
+18
+Algorithm changeGreedy:
+[1, 0, 2, 3, 13]
+19
+Algorithm changeGreedy:
+[2, 0, 2, 3, 13]
+20
+Algorithm changeGreedy:
+[3, 0, 2, 3, 13]
+21
+Algorithm changeGreedy:
+[4, 0, 2, 3, 13]
+22
+Algorithm changeGreedy:
+[5, 0, 2, 3, 13]
+23
+Algorithm changeGreedy:
+[0, 1, 2, 3, 13]
+19
+Algorithm changeGreedy:
+[1, 1, 2, 3, 13]
+20
+Algorithm changeGreedy:
+[2, 1, 2, 3, 13]
+21
+Algorithm changeGreedy:
+[3, 1, 2, 3, 13]
+22
+Algorithm changeGreedy:
+[4, 1, 2, 3, 13]
+23
+Algorithm changeGreedy:
+[0, 0, 0, 4, 13]
+17
+Algorithm changeGreedy:
+[1, 0, 0, 4, 13]
+18
+Algorithm changeGreedy:
+[0, 0, 0, 0, 14]
+14
+Algorithm changeGreedy:
+[1, 0, 0, 0, 14]
+15
+Algorithm changeGreedy:
+[2, 0, 0, 0, 14]
+16
+Algorithm changeGreedy:
+[3, 0, 0, 0, 14]
+17
+Algorithm changeGreedy:
+[4, 0, 0, 0, 14]
+18
+Algorithm changeGreedy:
+[5, 0, 0, 0, 14]
+19
+Algorithm changeGreedy:
+[0, 1, 0, 0, 14]
+15
+Algorithm changeGreedy:
+[1, 1, 0, 0, 14]
+16
+Algorithm changeGreedy:
+[2, 1, 0, 0, 14]
+17
+Algorithm changeGreedy:
+[3, 1, 0, 0, 14]
+18
+Algorithm changeGreedy:
+[4, 1, 0, 0, 14]
+19
+Algorithm changeGreedy:
+[5, 1, 0, 0, 14]
+20
+Algorithm changeGreedy:
+[0, 2, 0, 0, 14]
+16
+Algorithm changeGreedy:
+[0, 0, 1, 0, 14]
+15
+Algorithm changeGreedy:
+[1, 0, 1, 0, 14]
+16
+Algorithm changeGreedy:
+[2, 0, 1, 0, 14]
+17
+Algorithm changeGreedy:
+[3, 0, 1, 0, 14]
+18
+Algorithm changeGreedy:
+[4, 0, 1, 0, 14]
+19
+Algorithm changeGreedy:
+[5, 0, 1, 0, 14]
+20
+Algorithm changeGreedy:
+[0, 1, 1, 0, 14]
+16
+Algorithm changeGreedy:
+[1, 1, 1, 0, 14]
+17
+Algorithm changeGreedy:
+[2, 1, 1, 0, 14]
+18
+Algorithm changeGreedy:
+[3, 1, 1, 0, 14]
+19
+Algorithm changeGreedy:
+[4, 1, 1, 0, 14]
+20
+Algorithm changeGreedy:
+[5, 1, 1, 0, 14]
+21
+Algorithm changeGreedy:
+[0, 2, 1, 0, 14]
+17
+Algorithm changeGreedy:
+[0, 0, 2, 0, 14]
+16
+Algorithm changeGreedy:
+[1, 0, 2, 0, 14]
+17
+Algorithm changeGreedy:
+[2, 0, 2, 0, 14]
+18
+Algorithm changeGreedy:
+[3, 0, 2, 0, 14]
+19
+Algorithm changeGreedy:
+[4, 0, 2, 0, 14]
+20
+Algorithm changeGreedy:
+[5, 0, 2, 0, 14]
+21
+Algorithm changeGreedy:
+[0, 1, 2, 0, 14]
+17
+Algorithm changeGreedy:
+[1, 1, 2, 0, 14]
+18
+Algorithm changeGreedy:
+[2, 1, 2, 0, 14]
+19
+Algorithm changeGreedy:
+[3, 1, 2, 0, 14]
+20
+Algorithm changeGreedy:
+[4, 1, 2, 0, 14]
+21
+Algorithm changeGreedy:
+[0, 0, 0, 1, 14]
+15
+Algorithm changeGreedy:
+[1, 0, 0, 1, 14]
+16
+Algorithm changeGreedy:
+[2, 0, 0, 1, 14]
+17
+Algorithm changeGreedy:
+[3, 0, 0, 1, 14]
+18
+Algorithm changeGreedy:
+[4, 0, 0, 1, 14]
+19
+Algorithm changeGreedy:
+[5, 0, 0, 1, 14]
+20
+Algorithm changeGreedy:
+[0, 1, 0, 1, 14]
+16
+Algorithm changeGreedy:
+[1, 1, 0, 1, 14]
+17
+Algorithm changeGreedy:
+[2, 1, 0, 1, 14]
+18
+Algorithm changeGreedy:
+[3, 1, 0, 1, 14]
+19
+Algorithm changeGreedy:
+[4, 1, 0, 1, 14]
+20
+Algorithm changeGreedy:
+[5, 1, 0, 1, 14]
+21
+Algorithm changeGreedy:
+[0, 2, 0, 1, 14]
+17
+Algorithm changeGreedy:
+[0, 0, 1, 1, 14]
+16
+Algorithm changeGreedy:
+[1, 0, 1, 1, 14]
+17
+Algorithm changeGreedy:
+[2, 0, 1, 1, 14]
+18
+Algorithm changeGreedy:
+[3, 0, 1, 1, 14]
+19
+Algorithm changeGreedy:
+[4, 0, 1, 1, 14]
+20
+Algorithm changeGreedy:
+[5, 0, 1, 1, 14]
+21
+Algorithm changeGreedy:
+[0, 1, 1, 1, 14]
+17
+Algorithm changeGreedy:
+[1, 1, 1, 1, 14]
+18
+Algorithm changeGreedy:
+[2, 1, 1, 1, 14]
+19
+Algorithm changeGreedy:
+[3, 1, 1, 1, 14]
+20
+Algorithm changeGreedy:
+[4, 1, 1, 1, 14]
+21
+Algorithm changeGreedy:
+[5, 1, 1, 1, 14]
+22
+Algorithm changeGreedy:
+[0, 2, 1, 1, 14]
+18
+Algorithm changeGreedy:
+[0, 0, 2, 1, 14]
+17
+Algorithm changeGreedy:
+[1, 0, 2, 1, 14]
+18
+Algorithm changeGreedy:
+[2, 0, 2, 1, 14]
+19
+Algorithm changeGreedy:
+[3, 0, 2, 1, 14]
+20
+Algorithm changeGreedy:
+[4, 0, 2, 1, 14]
+21
+Algorithm changeGreedy:
+[5, 0, 2, 1, 14]
+22
+Algorithm changeGreedy:
+[0, 1, 2, 1, 14]
+18
+Algorithm changeGreedy:
+[1, 1, 2, 1, 14]
+19
+Algorithm changeGreedy:
+[2, 1, 2, 1, 14]
+20
+Algorithm changeGreedy:
+[3, 1, 2, 1, 14]
+21
+Algorithm changeGreedy:
+[4, 1, 2, 1, 14]
+22
+Algorithm changeGreedy:
+[0, 0, 0, 2, 14]
+16
+Algorithm changeGreedy:
+[1, 0, 0, 2, 14]
+17
+Algorithm changeGreedy:
+[2, 0, 0, 2, 14]
+18
+Algorithm changeGreedy:
+[3, 0, 0, 2, 14]
+19
+Algorithm changeGreedy:
+[4, 0, 0, 2, 14]
+20
+Algorithm changeGreedy:
+[5, 0, 0, 2, 14]
+21
+Algorithm changeGreedy:
+[0, 1, 0, 2, 14]
+17
+Algorithm changeGreedy:
+[1, 1, 0, 2, 14]
+18
+Algorithm changeGreedy:
+[2, 1, 0, 2, 14]
+19
+Algorithm changeGreedy:
+[3, 1, 0, 2, 14]
+20
+Algorithm changeGreedy:
+[4, 1, 0, 2, 14]
+21
+Algorithm changeGreedy:
+[5, 1, 0, 2, 14]
+22
+Algorithm changeGreedy:
+[0, 2, 0, 2, 14]
+18
+Algorithm changeGreedy:
+[0, 0, 1, 2, 14]
+17
+Algorithm changeGreedy:
+[1, 0, 1, 2, 14]
+18
+Algorithm changeGreedy:
+[2, 0, 1, 2, 14]
+19
+Algorithm changeGreedy:
+[3, 0, 1, 2, 14]
+20
+Algorithm changeGreedy:
+[4, 0, 1, 2, 14]
+21
+Algorithm changeGreedy:
+[5, 0, 1, 2, 14]
+22
+Algorithm changeGreedy:
+[0, 1, 1, 2, 14]
+18
+Algorithm changeGreedy:
+[1, 1, 1, 2, 14]
+19
+Algorithm changeGreedy:
+[2, 1, 1, 2, 14]
+20
+Algorithm changeGreedy:
+[3, 1, 1, 2, 14]
+21
+Algorithm changeGreedy:
+[4, 1, 1, 2, 14]
+22
+Algorithm changeGreedy:
+[5, 1, 1, 2, 14]
+23
+Algorithm changeGreedy:
+[0, 2, 1, 2, 14]
+19
+Algorithm changeGreedy:
+[0, 0, 2, 2, 14]
+18
+Algorithm changeDP:
+[0, 0, 1, 1, 13]
+15
+Algorithm changeDP:
+[1, 0, 1, 1, 13]
+16
+Algorithm changeDP:
+[0, 0, 4, 0, 13]
+17
+Algorithm changeDP:
+[1, 0, 4, 0, 13]
+18
+Algorithm changeDP:
+[0, 1, 1, 5, 12]
+19
+Algorithm changeDP:
+[0, 3, 0, 1, 13]
+17
+Algorithm changeDP:
+[0, 1, 1, 1, 13]
+16
+Algorithm changeDP:
+[1, 1, 1, 1, 13]
+17
+Algorithm changeDP:
+[0, 1, 4, 0, 13]
+18
+Algorithm changeDP:
+[1, 1, 4, 0, 13]
+19
+Algorithm changeDP:
+[0, 2, 1, 5, 12]
+20
+Algorithm changeDP:
+[0, 4, 0, 1, 13]
+18
+Algorithm changeDP:
+[0, 2, 1, 1, 13]
+17
+Algorithm changeDP:
+[0, 0, 2, 1, 13]
+16
+Algorithm changeDP:
+[1, 0, 2, 1, 13]
+17
+Algorithm changeDP:
+[0, 0, 5, 0, 13]
+18
+Algorithm changeDP:
+[1, 0, 5, 0, 13]
+19
+Algorithm changeDP:
+[0, 5, 0, 1, 13]
+19
+Algorithm changeDP:
+[0, 3, 1, 1, 13]
+18
+Algorithm changeDP:
+[0, 1, 2, 1, 13]
+17
+Algorithm changeDP:
+[1, 1, 2, 1, 13]
+18
+Algorithm changeDP:
+[0, 1, 5, 0, 13]
+19
+Algorithm changeDP:
+[0, 0, 0, 6, 12]
+18
+Algorithm changeDP:
+[1, 0, 0, 6, 12]
+19
+Algorithm changeDP:
+[0, 0, 0, 2, 13]
+15
+Algorithm changeDP:
+[1, 0, 0, 2, 13]
+16
+Algorithm changeDP:
+[0, 0, 3, 1, 13]
+17
+Algorithm changeDP:
+[1, 0, 3, 1, 13]
+18
+Algorithm changeDP:
+[0, 1, 0, 6, 12]
+19
+Algorithm changeDP:
+[1, 1, 0, 6, 12]
+20
+Algorithm changeDP:
+[0, 1, 0, 2, 13]
+16
+Algorithm changeDP:
+[1, 1, 0, 2, 13]
+17
+Algorithm changeDP:
+[0, 1, 3, 1, 13]
+18
+Algorithm changeDP:
+[1, 1, 3, 1, 13]
+19
+Algorithm changeDP:
+[0, 2, 0, 6, 12]
+20
+Algorithm changeDP:
+[0, 0, 1, 6, 12]
+19
+Algorithm changeDP:
+[0, 2, 0, 2, 13]
+17
+Algorithm changeDP:
+[0, 0, 1, 2, 13]
+16
+Algorithm changeDP:
+[1, 0, 1, 2, 13]
+17
+Algorithm changeDP:
+[0, 0, 4, 1, 13]
+18
+Algorithm changeDP:
+[1, 0, 4, 1, 13]
+19
+Algorithm changeDP:
+[0, 1, 1, 6, 12]
+20
+Algorithm changeDP:
+[0, 3, 0, 2, 13]
+18
+Algorithm changeDP:
+[0, 1, 1, 2, 13]
+17
+Algorithm changeDP:
+[1, 1, 1, 2, 13]
+18
+Algorithm changeDP:
+[0, 1, 4, 1, 13]
+19
+Algorithm changeDP:
+[1, 1, 4, 1, 13]
+20
+Algorithm changeDP:
+[0, 2, 1, 6, 12]
+21
+Algorithm changeDP:
+[0, 4, 0, 2, 13]
+19
+Algorithm changeDP:
+[0, 2, 1, 2, 13]
+18
+Algorithm changeDP:
+[0, 0, 2, 2, 13]
+17
+Algorithm changeDP:
+[1, 0, 2, 2, 13]
+18
+Algorithm changeDP:
+[0, 0, 5, 1, 13]
+19
+Algorithm changeDP:
+[1, 0, 5, 1, 13]
+20
+Algorithm changeDP:
+[0, 5, 0, 2, 13]
+20
+Algorithm changeDP:
+[0, 3, 1, 2, 13]
+19
+Algorithm changeDP:
+[0, 1, 2, 2, 13]
+18
+Algorithm changeDP:
+[1, 1, 2, 2, 13]
+19
+Algorithm changeDP:
+[0, 1, 5, 1, 13]
+20
+Algorithm changeDP:
+[0, 0, 0, 7, 12]
+19
+Algorithm changeDP:
+[1, 0, 0, 7, 12]
+20
+Algorithm changeDP:
+[0, 0, 0, 3, 13]
+16
+Algorithm changeDP:
+[1, 0, 0, 3, 13]
+17
+Algorithm changeDP:
+[0, 0, 3, 2, 13]
+18
+Algorithm changeDP:
+[1, 0, 3, 2, 13]
+19
+Algorithm changeDP:
+[0, 1, 0, 7, 12]
+20
+Algorithm changeDP:
+[1, 1, 0, 7, 12]
+21
+Algorithm changeDP:
+[0, 1, 0, 3, 13]
+17
+Algorithm changeDP:
+[1, 1, 0, 3, 13]
+18
+Algorithm changeDP:
+[0, 1, 3, 2, 13]
+19
+Algorithm changeDP:
+[1, 1, 3, 2, 13]
+20
+Algorithm changeDP:
+[0, 2, 0, 7, 12]
+21
+Algorithm changeDP:
+[0, 0, 1, 7, 12]
+20
+Algorithm changeDP:
+[0, 2, 0, 3, 13]
+18
+Algorithm changeDP:
+[0, 0, 1, 3, 13]
+17
+Algorithm changeDP:
+[1, 0, 1, 3, 13]
+18
+Algorithm changeDP:
+[0, 0, 4, 2, 13]
+19
+Algorithm changeDP:
+[1, 0, 4, 2, 13]
+20
+Algorithm changeDP:
+[0, 1, 1, 7, 12]
+21
+Algorithm changeDP:
+[0, 3, 0, 3, 13]
+19
+Algorithm changeDP:
+[0, 1, 1, 3, 13]
+18
+Algorithm changeDP:
+[1, 1, 1, 3, 13]
+19
+Algorithm changeDP:
+[0, 1, 4, 2, 13]
+20
+Algorithm changeDP:
+[1, 1, 4, 2, 13]
+21
+Algorithm changeDP:
+[0, 2, 1, 7, 12]
+22
+Algorithm changeDP:
+[0, 4, 0, 3, 13]
+20
+Algorithm changeDP:
+[0, 2, 1, 3, 13]
+19
+Algorithm changeDP:
+[0, 0, 2, 3, 13]
+18
+Algorithm changeDP:
+[1, 0, 2, 3, 13]
+19
+Algorithm changeDP:
+[0, 0, 5, 2, 13]
+20
+Algorithm changeDP:
+[1, 0, 5, 2, 13]
+21
+Algorithm changeDP:
+[0, 5, 0, 3, 13]
+21
+Algorithm changeDP:
+[0, 3, 1, 3, 13]
+20
+Algorithm changeDP:
+[0, 1, 2, 3, 13]
+19
+Algorithm changeDP:
+[1, 1, 2, 3, 13]
+20
+Algorithm changeDP:
+[0, 1, 5, 2, 13]
+21
+Algorithm changeDP:
+[0, 0, 0, 8, 12]
+20
+Algorithm changeDP:
+[1, 0, 0, 8, 12]
+21
+Algorithm changeDP:
+[0, 0, 0, 4, 13]
+17
+Algorithm changeDP:
+[1, 0, 0, 4, 13]
+18
+Algorithm changeDP:
+[0, 0, 0, 0, 14]
+14
+Algorithm changeDP:
+[1, 0, 0, 0, 14]
+15
+Algorithm changeDP:
+[2, 0, 0, 0, 14]
+16
+Algorithm changeDP:
+[3, 0, 0, 0, 14]
+17
+Algorithm changeDP:
+[0, 1, 0, 4, 13]
+18
+Algorithm changeDP:
+[1, 1, 0, 4, 13]
+19
+Algorithm changeDP:
+[0, 1, 0, 0, 14]
+15
+Algorithm changeDP:
+[1, 1, 0, 0, 14]
+16
+Algorithm changeDP:
+[2, 1, 0, 0, 14]
+17
+Algorithm changeDP:
+[3, 1, 0, 0, 14]
+18
+Algorithm changeDP:
+[0, 2, 0, 4, 13]
+19
+Algorithm changeDP:
+[0, 0, 1, 4, 13]
+18
+Algorithm changeDP:
+[0, 2, 0, 0, 14]
+16
+Algorithm changeDP:
+[0, 0, 1, 0, 14]
+15
+Algorithm changeDP:
+[1, 0, 1, 0, 14]
+16
+Algorithm changeDP:
+[2, 0, 1, 0, 14]
+17
+Algorithm changeDP:
+[3, 0, 1, 0, 14]
+18
+Algorithm changeDP:
+[0, 1, 1, 4, 13]
+19
+Algorithm changeDP:
+[0, 3, 0, 0, 14]
+17
+Algorithm changeDP:
+[0, 1, 1, 0, 14]
+16
+Algorithm changeDP:
+[1, 1, 1, 0, 14]
+17
+Algorithm changeDP:
+[2, 1, 1, 0, 14]
+18
+Algorithm changeDP:
+[3, 1, 1, 0, 14]
+19
+Algorithm changeDP:
+[0, 2, 1, 4, 13]
+20
+Algorithm changeDP:
+[0, 4, 0, 0, 14]
+18
+Algorithm changeDP:
+[0, 2, 1, 0, 14]
+17
+Algorithm changeDP:
+[0, 0, 2, 0, 14]
+16
+Algorithm changeDP:
+[1, 0, 2, 0, 14]
+17
+Algorithm changeDP:
+[2, 0, 2, 0, 14]
+18
+Algorithm changeDP:
+[3, 0, 2, 0, 14]
+19
+Algorithm changeDP:
+[0, 5, 0, 0, 14]
+19
+Algorithm changeDP:
+[0, 3, 1, 0, 14]
+18
+Algorithm changeDP:
+[0, 1, 2, 0, 14]
+17
+Algorithm changeDP:
+[1, 1, 2, 0, 14]
+18
+Algorithm changeDP:
+[2, 1, 2, 0, 14]
+19
+Algorithm changeDP:
+[0, 0, 0, 5, 13]
+18
+Algorithm changeDP:
+[1, 0, 0, 5, 13]
+19
+Algorithm changeDP:
+[0, 0, 0, 1, 14]
+15
+Algorithm changeDP:
+[1, 0, 0, 1, 14]
+16
+Algorithm changeDP:
+[0, 0, 3, 0, 14]
+17
+Algorithm changeDP:
+[1, 0, 3, 0, 14]
+18
+Algorithm changeDP:
+[0, 1, 0, 5, 13]
+19
+Algorithm changeDP:
+[1, 1, 0, 5, 13]
+20
+Algorithm changeDP:
+[0, 1, 0, 1, 14]
+16
+Algorithm changeDP:
+[1, 1, 0, 1, 14]
+17
+Algorithm changeDP:
+[0, 1, 3, 0, 14]
+18
+Algorithm changeDP:
+[1, 1, 3, 0, 14]
+19
+Algorithm changeDP:
+[0, 2, 0, 5, 13]
+20
+Algorithm changeDP:
+[0, 0, 1, 5, 13]
+19
+Algorithm changeDP:
+[0, 2, 0, 1, 14]
+17
+Algorithm changeDP:
+[0, 0, 1, 1, 14]
+16
+Algorithm changeDP:
+[1, 0, 1, 1, 14]
+17
+Algorithm changeDP:
+[0, 0, 4, 0, 14]
+18
+Algorithm changeDP:
+[1, 0, 4, 0, 14]
+19
+Algorithm changeDP:
+[0, 1, 1, 5, 13]
+20
+Algorithm changeDP:
+[0, 3, 0, 1, 14]
+18
+Algorithm changeDP:
+[0, 1, 1, 1, 14]
+17
+Algorithm changeDP:
+[1, 1, 1, 1, 14]
+18
+Algorithm changeDP:
+[0, 1, 4, 0, 14]
+19
+Algorithm changeDP:
+[1, 1, 4, 0, 14]
+20
+Algorithm changeDP:
+[0, 2, 1, 5, 13]
+21
+Algorithm changeDP:
+[0, 4, 0, 1, 14]
+19
+Algorithm changeDP:
+[0, 2, 1, 1, 14]
+18
+Algorithm changeDP:
+[0, 0, 2, 1, 14]
+17
+Algorithm changeDP:
+[1, 0, 2, 1, 14]
+18
+Algorithm changeDP:
+[0, 0, 5, 0, 14]
+19
+Algorithm changeDP:
+[1, 0, 5, 0, 14]
+20
+Algorithm changeDP:
+[0, 5, 0, 1, 14]
+20
+Algorithm changeDP:
+[0, 3, 1, 1, 14]
+19
+Algorithm changeDP:
+[0, 1, 2, 1, 14]
+18
+Algorithm changeDP:
+[1, 1, 2, 1, 14]
+19
+Algorithm changeDP:
+[0, 1, 5, 0, 14]
+20
+Algorithm changeDP:
+[0, 0, 0, 6, 13]
+19
+Algorithm changeDP:
+[1, 0, 0, 6, 13]
+20
+Algorithm changeDP:
+[0, 0, 0, 2, 14]
+16
+Algorithm changeDP:
+[1, 0, 0, 2, 14]
+17
+Algorithm changeDP:
+[0, 0, 3, 1, 14]
+18
+Algorithm changeDP:
+[1, 0, 3, 1, 14]
+19
+Algorithm changeDP:
+[0, 1, 0, 6, 13]
+20
+Algorithm changeDP:
+[1, 1, 0, 6, 13]
+21
+Algorithm changeDP:
+[0, 1, 0, 2, 14]
+17
+Algorithm changeDP:
+[1, 1, 0, 2, 14]
+18
+Algorithm changeDP:
+[0, 1, 3, 1, 14]
+19
+Algorithm changeDP:
+[1, 1, 3, 1, 14]
+20
+Algorithm changeDP:
+[0, 2, 0, 6, 13]
+21
+Algorithm changeDP:
+[0, 0, 1, 6, 13]
+20
+Algorithm changeDP:
+[0, 2, 0, 2, 14]
+18
+Algorithm changeDP:
+[0, 0, 1, 2, 14]
+17
+Algorithm changeDP:
+[1, 0, 1, 2, 14]
+18
+Algorithm changeDP:
+[0, 0, 4, 1, 14]
+19
+Algorithm changeDP:
+[1, 0, 4, 1, 14]
+20
+Algorithm changeDP:
+[0, 1, 1, 6, 13]
+21
+Algorithm changeDP:
+[0, 3, 0, 2, 14]
+19
+Algorithm changeDP:
+[0, 1, 1, 2, 14]
+18
+Algorithm changeDP:
+[1, 1, 1, 2, 14]
+19
+Algorithm changeDP:
+[0, 1, 4, 1, 14]
+20
+Algorithm changeDP:
+[1, 1, 4, 1, 14]
+21
+Algorithm changeDP:
+[0, 2, 1, 6, 13]
+22
+Algorithm changeDP:
+[0, 4, 0, 2, 14]
+20
+Algorithm changeDP:
+[0, 2, 1, 2, 14]
+19
+Algorithm changeDP:
+[0, 0, 2, 2, 14]
+18
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 66]
+67
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 66]
+68
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 66]
+67
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 66]
+68
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 66]
+67
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 66]
+68
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 66]
+67
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 66]
+68
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 66]
+67
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 66]
+68
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+67
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 67]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 67]
+69
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+68
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 68]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 68]
+70
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+69
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 69]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 69]
+71
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+70
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 70]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 70]
+72
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+71
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 71]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 71]
+73
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+72
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 72]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 72]
+74
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+73
+Algorithm changeGreedy:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+74
+Algorithm changeGreedy:
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+74
+Algorithm changeGreedy:
+[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+75
+Algorithm changeGreedy:
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+74
+Algorithm changeGreedy:
+[1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+75
+Algorithm changeGreedy:
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+74
+Algorithm changeGreedy:
+[1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+75
+Algorithm changeGreedy:
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+74
+Algorithm changeGreedy:
+[1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+75
+Algorithm changeGreedy:
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 62]
+67
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 62]
+68
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 63]
+67
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 63]
+68
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 64]
+67
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 64]
+68
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 65]
+67
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 65]
+68
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 66]
+67
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 66]
+68
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+67
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67]
+68
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 54]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 54]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 55]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 55]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 56]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 56]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 57]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 57]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 58]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 58]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 59]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 59]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 60]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 60]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 61]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 61]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 62]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 62]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 63]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 63]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 64]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 64]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 65]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 65]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 66]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 66]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 67]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 67]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+68
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68]
+69
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 55]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 55]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 56]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 56]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 57]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 57]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 58]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 58]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 59]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 59]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 60]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 60]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 61]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 61]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 62]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 62]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 63]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 63]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 64]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 64]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 65]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 65]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 66]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 66]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 67]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 67]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 68]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 68]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+69
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69]
+70
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 56]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 56]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 57]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 57]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 58]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 58]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 59]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 59]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 60]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 60]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 61]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 61]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 62]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 62]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 63]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 63]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 64]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 64]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 65]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 65]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 66]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 66]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 67]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 67]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 68]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 68]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 69]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 69]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+70
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70]
+71
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 57]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 57]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 58]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 58]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 59]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 59]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 60]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 60]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 61]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 61]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 62]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 62]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 63]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 63]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 64]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 64]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 65]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 65]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 66]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 66]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 67]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 67]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 68]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 68]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 69]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 69]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 70]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 70]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+71
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71]
+72
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 58]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 58]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 59]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 59]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 60]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 60]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 61]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 61]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 62]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 62]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 63]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 63]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 64]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 64]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 65]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 65]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 66]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 66]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 67]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 67]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 68]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 68]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 69]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 69]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 70]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 70]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 71]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 71]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+72
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72]
+73
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 59]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 59]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 60]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 60]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 61]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 61]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 62]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 62]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 63]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 63]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 64]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 64]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 65]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 65]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 66]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 66]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 67]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 67]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 68]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 68]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 69]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 69]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 70]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 70]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 71]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 71]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 72]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 72]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+73
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73]
+74
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 60]
+74
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 60]
+75
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 61]
+74
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 61]
+75
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 62]
+74
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 62]
+75
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 63]
+74
+Algorithm changeDP:
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 63]
+75
+Algorithm changeDP:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 64]
+74
