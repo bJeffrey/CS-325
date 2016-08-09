@@ -9,21 +9,17 @@ Post:         minimum path printed to screen
 *******************************************************************************/
 int main(){
   int i;
-  struct nodeset Myset[SET_SIZE];
+  int cityList[SET_SIZE + 1];
+  struct coord Myset[SET_SIZE];
 
-  int ** distances = initArray(SET_SIZE);
+  int** distances = initArray(SET_SIZE);
 
   initSet(Myset, SET_SIZE);
-  buildDistanceTable(distances, Myset, SET_SIZE);
 
   for(i = 0; i < SET_SIZE; i++)
-    printf("%d\t%d\t%d\n", Myset[i].point, Myset[i].x, Myset[i].y);
+    printf("%d\t%d\t%d\n", Myset[i].city, Myset[i].x, Myset[i].y);
 
-    printf("Distance from 0 to 1: %d\n", getDistance(Myset[0], Myset[1]) );
-
-
-
-
+  held_karp_control(Myset, cityList, SET_SIZE);
 
   printf("Program ending...\n");
   return 0;
