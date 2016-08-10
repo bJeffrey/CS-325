@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
@@ -67,7 +68,7 @@ float get_total_distance(struct coord* dynOrder, int count){
 	dist += distance(dynOrder[i].x, dynOrder[i].y, dynOrder[0].x, dynOrder[0].y);
 
 	//display results
-	printf("Total distance = %f\n", dist);
+	// printf("Total distance = %f\n", dist);
 	//close file
 	//fclose(fp);
 	return dist;
@@ -123,6 +124,14 @@ struct coord *greedy(struct coord *city, int starting_point, int count)
 }
 
 float greedy_control(struct coord* city, int count){
+	clock_t start, end;
+	double time_used, time_check;
+	float timer1 = 0.0;
+	float timer2 = 0.0;
+	start = clock();
+	time_used = 0.00;
+	time_check = 0.00;
+
 	struct coord *current_city_list;
 	int i;
 	float shortest_distance = get_total_distance(city, count);
@@ -134,26 +143,22 @@ float greedy_control(struct coord* city, int count){
 
 		if(current_distance < shortest_distance)
 		shortest_distance = current_distance;
+
+		end = clock();
+		time_used += (double)(end - start)/CLOCKS_PER_SEC;
+		time_check += (double)(end - start)/CLOCKS_PER_SEC;
+
+		if(time_check >= 20){
+			printf("Calculating...\n");
+			time_check = 0.00;
+		}
+
+		if(time_used >= 21566.00)
+			break;
+
 	}
 
 	return shortest_distance;
-}
-
-void output_to_file(int shorest_path, int count, struct coord *dyn, char* file_name)
-{
-	FILE *fp;
-
-   char ending[5] = ".tour";
-
-   /* concatenates file name with .tour */
-   strcat( file_name, ending);
-
-    fp = fopen(file_name,"w");
-    fprintf(fp, "%d\n", shorest_path);
-    int j;
-    for(j=0;j<count;j++)
-        fprintf(fp, "%d\n", dyn[j]);
-    fclose(fp);
 }
 
 int main(int argc, char *argv[])
@@ -241,11 +246,6 @@ int main(int argc, char *argv[])
 	shortest_distance = greedy_control(dyn, count);
 	printf("Shortest path: %f\n", shortest_distance);
 
-    //creates and opens the file
-    output_to_file(shortest_distance, count, dyn, argv[1]);
-
-
 	//close file
 	//fclose(fp);
 }
-
