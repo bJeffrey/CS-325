@@ -160,6 +160,22 @@ float greedy_control(struct coord* city, int count){
 	return shortest_distance;
 }
 
+void output_to_file(int shorest_path, int count, struct coord *dyn, char* file_name)
+{
+	FILE *fp;
+
+   char ending[5] = ".tour";
+
+   /* concatenates file name with .tour */
+   strcat( file_name, ending);
+
+    fp = fopen(file_name,"w");
+    fprintf(fp, "%d\n", shorest_path);
+    int j;
+    for(j=0;j<count;j++)
+        fprintf(fp, "%d\n", dyn[j]);
+    fclose(fp);
+}
 int main(int argc, char *argv[])
 {
 	//check user input
@@ -244,6 +260,9 @@ int main(int argc, char *argv[])
 	//Call algorithm function
 	shortest_distance = greedy_control(dyn, count);
 	printf("Shortest path: %f\n", shortest_distance);
+	
+	
+    output_to_file(shortest_distance, count, dyn, argv[1]);
 
 	//close file
 	//fclose(fp);
