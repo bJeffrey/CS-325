@@ -23,7 +23,7 @@ void display(struct coord *in, int count)
 //resets input to zero to avoid reusing previous values
 void setZero(char *arr)
 {
-	int i = 0; 
+	int i = 0;
 	while (i < 100)
 	{
 		arr[i] = NULL;
@@ -38,13 +38,13 @@ float distance(int x1, int y1, int x2, int y2)
 
 int checkInput(char **argv, int argc)
 {
-	
+
 	//check number of arguments
 	if (argc != 2)
 	{
 		return 0;
 	}
-	
+
 	//check if file exists
 	FILE *file;
     if (file = fopen(argv[1], "r"))
@@ -56,15 +56,33 @@ int checkInput(char **argv, int argc)
 		return 0;
 }
 
-struct coord *greedy(struct coord *city, int count)
+float get_total_distance(struct coord* dynOrder, int count){
+	int i = 0;
+	float dist;
+	while (i < count-1)
+	{
+		dist += distance(dynOrder[i].x, dynOrder[i].y, dynOrder[i+1].x, dynOrder[i+1].y);
+		i++;
+	}
+	dist += distance(dynOrder[i].x, dynOrder[i].y, dynOrder[0].x, dynOrder[0].y);
+
+	//display results
+	printf("Total distance = %f\n", dist);
+	//close file
+	//fclose(fp);
+	return dist;
+}
+
+
+struct coord *greedy(struct coord *city, int starting_point, int count)
 {
 	struct coord *path = malloc(sizeof(struct coord) * count);
 	struct coord temp, current;
 	//variable to keep track of number of remaining cities
 	int control = 1;
 	//set starting city
-	path[0] = city[0];
-	current = city[0];
+	path[starting_point] = city[starting_point];
+	current = city[starting_point];
 	temp = current;
 	//accounts for what cities have been visited
 	int list[count];
@@ -79,7 +97,7 @@ struct coord *greedy(struct coord *city, int count)
 	i = 1;
 	int x = 0;
 	//sets starting city to true
-	list[0] = 1;
+	list[starting_point] = 1;
 	while (control < count)
 	{
 		while (i < count)
@@ -104,6 +122,23 @@ struct coord *greedy(struct coord *city, int count)
 	return path;
 }
 
+float greedy_control(struct coord* city, int count){
+	struct coord *current_city_list;
+	int i;
+	float shortest_distance = get_total_distance(city, count);
+	float current_distance;
+
+	for(i = 0; i < count; i++){
+		current_city_list = greedy(city, i, count);
+		current_distance = get_total_distance(current_city_list, count);
+
+		if(current_distance < shortest_distance)
+		shortest_distance = current_distance;
+	}
+
+	return shortest_distance;
+}
+
 int main(int argc, char *argv[])
 {
 	//check user input
@@ -112,12 +147,13 @@ int main(int argc, char *argv[])
 		printf("Error, please make sure to enter a single file name, ending with '.txt'\n");
 		return 0;
 	}
-	
+
 	//initialize character array to store file data
 	char input[100];
 	char temp[100];
 	int count = 0;
 	float dist = 0;
+	float shortest_distance;//Distance of the shortest path from the greedy algorithm
 	//pointer to what will become a dynamic array
 	struct coord *dyn;
 	//pointer to what will become a dynamic array in the order to be traveled
@@ -151,7 +187,7 @@ int main(int argc, char *argv[])
 		}
 		//incriments i value, as otherwise, it will be set on the " " value, and not enter other while loops
 		i++;
-		
+
 		//sets x value in coord
 		while (input[i] != ' ')
 		{
@@ -159,13 +195,13 @@ int main(int argc, char *argv[])
 			j++;
 			i++;
 		}
-		//incriment to avoid space value 
+		//incriment to avoid space value
 		i++;
 		//set x value
 		dyn[k].x = atoi(temp);
 		//set all temp values to NULL to avoid writing incorrect value to coords
 		setZero(temp);
-		
+
 		//sets y value in coord (same methodology as x)
 		j = 0;
 		while (input[i] != ' ')
@@ -180,23 +216,14 @@ int main(int argc, char *argv[])
 		//incriment to next spot in array
 		k++;
 	}
-	
+
 	//display city and coord values (used for testing only)
 	//display(dyn, count);
-	
+
 	//Call algorithm function
-	dynOrder = greedy(dyn, count);
-	int i = 0;
-	
-	while (i < count-1)
-	{
-		dist += distance(dynOrder[i].x, dynOrder[i].y, dynOrder[i+1].x, dynOrder[i+1].y);
-		i++;
-	}
-	dist += distance(dynOrder[i].x, dynOrder[i].y, dynOrder[0].x, dynOrder[0].y);
-	
-	//display results
-	printf("Total distance = %f\n", dist);
+	shortest_distance = greedy_control(dyn, count);
+	printf("Shortest path: %f\n", shortest_distance);
+
 	//close file
 	//fclose(fp);
 }
