@@ -149,7 +149,6 @@ float greedy_control(struct coord* city, int count){
 		time_check += (double)(end - start)/CLOCKS_PER_SEC;
 
 		if(time_check >= 20){
-			printf("Calculating...\n");
 			time_check = 0.00;
 		}
 
