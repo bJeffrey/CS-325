@@ -33,9 +33,9 @@ void setZero(char *arr)
 	}
 }
 
-float distance(int x1, int y1, int x2, int y2)
+int distance(int x1, int y1, int x2, int y2)
 {
-	return sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
+	return (sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1))+.5);
 }
 
 int checkInput(char **argv, int argc)
@@ -58,21 +58,18 @@ int checkInput(char **argv, int argc)
 		return 0;
 }
 
-float get_total_distance(struct coord* dynOrder, int count){
-	int i = 0;
-	float dist;
-	while (i < count-1)
-	{
-		dist += distance(dynOrder[i].x, dynOrder[i].y, dynOrder[i+1].x, dynOrder[i+1].y);
-		i++;
-	}
-	dist += distance(dynOrder[i].x, dynOrder[i].y, dynOrder[0].x, dynOrder[0].y);
+float get_total_distance(struct coord* dyn, int count){
+int k;
+int total_distance = 0;
+for (k=0; k<count-1; k++)
+{
+    total_distance = total_distance + distance(dyn[k].x,dyn[k].y,dyn[k+1].x,dyn[k+1].y);
+    //printf("City: %d travel to City: %d Distance: %dTotal Distance: %d\n", dyn[k].city, dyn[k+1], distance(dyn[k].x,dyn[k].y,dyn[k+1].x,dyn[k+1].y), total_distance);
+}
+    total_distance = total_distance + distance(dyn[0].x,dyn[0].y,dyn[count-1].x,dyn[count-1].y);
+  //  printf("City: %d travel to City: %d Distance: %dTotal Distance: %d\n", dyn[0].city, dyn[count-1], distance(dyn[0].x,dyn[0].y,dyn[count-1].x,dyn[count-1].y), total_distance);
 
-	//display results
-	// printf("Total distance = %f\n", dist);
-	//close file
-	//fclose(fp);
-	return dist;
+	return total_distance;
 }
 
 
@@ -139,8 +136,24 @@ struct coord *greedy(struct coord *city, int starting_point, int count)
 }
 
 
-void output_to_file(int shorest_path, int count, struct coord *dyn, char* file_name)
+void output_to_file(int shortest_path, int count, struct coord *dyn, char* file_name)
 {
+//testing
+
+int k;
+int total_distance = 0;
+int dx;
+int dy;
+for (k=0; k<count-1; k++)
+{
+    total_distance = total_distance + distance(dyn[k].x,dyn[k].y,dyn[k+1].x,dyn[k+1].y);
+//    printf("City: %d travel to City: %d Distance: %dTotal Distance: %d\n", dyn[k].city, dyn[k+1], distance(dyn[k].x,dyn[k].y,dyn[k+1].x,dyn[k+1].y), total_distance);
+}
+    total_distance = total_distance + distance(dyn[0].x,dyn[0].y,dyn[count-1].x,dyn[count-1].y);
+   // printf("City: %d travel to City: %d Distance: %dTotal Distance: %d\n", dyn[0].city, dyn[count-1], distance(dyn[0].x,dyn[0].y,dyn[count-1].x,dyn[count-1].y), total_distance);
+
+
+
 	FILE *fp;
 
 	char ending[5] = ".tour";
@@ -149,7 +162,7 @@ void output_to_file(int shorest_path, int count, struct coord *dyn, char* file_n
 	strcat( file_name, ending);
 
 	fp = fopen(file_name,"w");
-	fprintf(fp, "%d\n", shorest_path);
+	fprintf(fp, "%d\n", total_distance);
 	int j;
 	for(j=0;j<count;j++)
 	fprintf(fp, "%d\n", dyn[j].city);
@@ -164,7 +177,12 @@ Pre:           node1 and node2 initialized
 Post:         distance between node1 and node2
 *******************************************************************************/
 int getDistance(struct coord node1, struct coord node2){
-  return sqrt((node2.x - node1.x) * (node2.x - node1.x) + (node2.y - node1.y) * (node2.y - node1.y)) + 0.5;
+
+  double dx = node1.x-node2.x;
+  double dy = node1.y-node2.y;
+
+
+  return sqrt((dx*dx) + (dy*dy));
 }
 
 /*******************************************************************************
@@ -346,11 +364,11 @@ float greedy_control(struct coord* city, struct coord *current_city_list, int co
 	}
 	// printf("last distancd: %f\n", distance(current_city_list[s].x, current_city_list[s].y, current_city_list[e].x, current_city_list[e].y));
 	// shortest_distance += distance(best_city_list[0].x, best_city_list[0].y, best_city_list[count - 1].x, best_city_list[count - 1].y);
-
+/*
 	for(i = 0; i < count; i++){
 		printf("best_city_list city: %d\n", best_city_list[i].city);
 	}
-
+*/
 	output_to_file(shortest_distance, count, best_city_list, file_name);
 	return shortest_distance;
 }
@@ -379,7 +397,7 @@ int main(int argc, char *argv[])
 	//pointer to what will become a dynamic array in the order to be traveled
 	// struct coord *dynOrder;
 	// struct coord *newOrder = malloc(sizeof(struct coord) * count);
-	//create file pointer and open file
+	//create file pointer and open file m//
 	FILE *fp;
 	fp = fopen(argv[1], "r");
 	//create while loop to read in data
@@ -419,7 +437,7 @@ int main(int argc, char *argv[])
 
 	shortest_distance = greedy_control(dyn, newOrder, count, argv[1]);
 
-	printf("Shortest path: %f\n", shortest_distance);
+	//printf("Shortest path: %f\n", shortest_distance);
 
 
 
